@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar Chart</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+
+        canvas#myBarChart {
+            max-width: 1200px;
+            max-height: 800px;
+            margin-top: 100px;
+            margin-right: 100px;
+            float: right;
+        }
+
+        .chartjs-chart {
+            font-size: 14px;
+            padding: 20px;
+        }
+
+        .chart-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .chart-labels {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .slider-container {
+            position: absolute;
+            top: 10px;
+            left: 240px;
+            width: 100px;
+        }
+
+        #yearLabel {
+            font-size: 25px;
+            margin-left: 45px;
+            margin-top: 30px;
+        }
+
+        .image-container {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 130px;
+            left: 130px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .image {
+            cursor: pointer;
+        }
+
+        #premierleague {
+            width: 300px;
+            height: 200px;
+            padding-top: 50px;
+        }
+
+        #laliga {
+            width: 180px;
+            height: 180px;
+            padding-top: 70px;
+        }
+
+        #seriea {
+            width: 300px;
+            height: 180px;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+
+        #bundesliga {
+            width: 160px;
+            height: 180px;
+            padding-top: 20px;
+        }
+
+        #ligue1 {
+            width: 150px;
+            height: 200px;
+            padding-left: 70px;
+            padding-top: 20px;
+        }
+
+        #ligaportugal {
+            width: 200px;
+            height: 200px;
+            padding-top: 20px;
+        }
+
+        #backbutton {
+            width: 50px;
+            height: 50px;
+            padding-left: 45px;
+        }
+
+        #playbutton {
+            width: 50px;
+            height: 50px;
+            padding-left: 50px;
+        }
+
+        #starbutton {
+            width: 50px;
+            height: 50px;
+            padding-left: 50px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="slider-container">
+        <div id="yearLabel">2023</div>
+        <input type="range" id="yearSlider" min="2004" max="2023" step="1" value="2023">
+    </div>
+
+    <div class="button-container">
+        <div><img src="assets/backbutton.png" alt="Back Button" id="backbutton" style="cursor: pointer"></div>
+        <div><img src="assets/starbutton.png" alt="Star Button" id="starbutton" style="cursor: pointer"></div>
+        <div><img src="assets/playbutton.png" alt="Play Button" id="playbutton" style="cursor: pointer"></div>
+    </div>
+
+    <canvas id="myBarChart"></canvas>
+
+    <div class="image-container">
+        <img class="image" id="premierleague" src="assets/premierleague.png" alt="Premier League logo">
+        <img class="image" id="laliga" src="assets/laliga.png" alt="LaLiga logo">
+
+        <img class="image" id="seriea" src="assets/seriea.png" alt="Serie A logo">
+        <img class="image" id="bundesliga" src="assets/bundesliga.png" alt="Bundesliga logo">
+
+        <img class="image" id="ligue1" src="assets/ligue1.png" alt="Ligue 1 logo">
+        <img class="image" id="ligaportugal" src="assets/ligaportugal.png" alt="Liga Portugal logo">
+    </div>
+
+    <script>
+
+        let isLeague = null;
+        let league = null;
+        let currentYear = 2023;
+        let isProfit = null;
+        let slideshow = null;
+        let leagueSlideshow = null;
+        let earnersSlideshow = null;
+        let leagueEarnersSlideshow = null;
+        let slideshowInterval = null;
+
+        function updateYearLabel(selectedYear) {
+            document.getElementById("yearLabel").textContent = selectedYear;
+        }
+
+        function updateChart(selectedYear, data, ctx) {
+
+            const yearData = data.filter(item => item.Year === parseInt(selectedYear));
+
+            const groupedData = yearData.reduce((acc, item) => {
+                const league = item.League;
+                if (!acc[league]) {
+                    acc[league] = 0;
+                }
+                acc[league] += item.Profit || 0;
+                return acc;
+            }, {});
+
+            const sortedLabels = Object.keys(groupedData).sort((a, b) => {
+                return groupedData[a] - groupedData[b];
+            });
+
+            const backgroundColors = sortedLabels.map(label => (groupedData[label] >= 0 ? 'rgba(102, 255, 0, 0.7)' : 'rgba(255, 0, 0, 0.7)'));
+
+            const sortedValues = sortedLabels.map(label => groupedData[label]);
+
+            const absoluteValues = sortedValues.map(value => Math.abs(value));
+
+            if (chart) {
+                chart.destroy();
+            }
+
+            chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sortedLabels,
+                    datasets: [
+                        {
+                            data: absoluteValues,
+                            backgroundColor: backgroundColors,
+                        },
+                    ],
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        title: {
+                            display: true,
+                            text: `Top 5 Leagues Transfer Profit / Loss Distribution in the ${selectedYear - 1}/${selectedYear} Season (in millions of euros)`,
+                            font: {
+                                size: 20,
+                                weight: 'bold',
+                            },
+
+                        },
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 2500,
+                            ticks: {
+                                font: {
+                                    size: 18,
+
+                                }
+                            }
+                        },
+                        x: {
+                            title: {
+                            },
+                            ticks: {
+                                font: {
+                                    size: 14,
+                                    weight: 'bold',
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
+        function updateLeagueChart(selectedYear, data, ctx, league) {
+
+            let step;
+            if (selectedYear == 2023 && league == "Premier League") {
+                step = 600;
+            }
+            else if (selectedYear != 2023 && league == "Premier League") {
+                step = 250;
+            }
+            if (league == "La Liga") step = 250;
+            if (league == "Serie A") step = 200;
+            if (league == "Liga Portugal") step = 100;
+            if (league == "Bundesliga") step = 200;
+            if (league == "Ligue 1") step = 250;
+
+            const filteredData = data.filter(item => {
+                return item.Year === parseInt(selectedYear) && item.League === league;
+            });
+
+            const groupedData = filteredData.reduce((acc, item) => {
+                const club = item.Club;
+                if (!acc[club]) {
+                    acc[club] = 0;
+                }
+                acc[club] += item.Profit || 0;
+                return acc;
+            }, {});
+
+            const sortedLabels = Object.keys(groupedData).sort((a, b) => {
+                return groupedData[a] - groupedData[b];
+            });
+
+
+            const backgroundColors = sortedLabels.map(label => (groupedData[label] >= 0 ? 'rgba(102, 255, 0, 0.7)' : 'rgba(255, 0, 0, 0.7)'));
+
+            const sortedValues = sortedLabels.map(label => groupedData[label]);
+
+            const absoluteValues = sortedValues.map(value => Math.abs(value));
+
+            if (chart) {
+                chart.destroy();
+            }
+
+            chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sortedLabels,
+                    datasets: [
+                        {
+                            data: absoluteValues,
+                            backgroundColor: backgroundColors,
+                        },
+                    ],
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        title: {
+                            display: true,
+                            text: `${league} Transfer Profit / Loss Distribution by Club in the ${selectedYear - 1}/${selectedYear} Season (in millions of euros)`, // Set the title
+                            font: {
+                                size: 20,
+                                weight: 'bold',
+                            },
+
+                        },
+                    },
+                    scales: {
+
+                        y: {
+                            beginAtZero: true,
+                            stepSize: 50,
+                            max: step,
+                            ticks: {
+                                font: {
+                                    size: 18,
+
+                                }
+                            }
+                        },
+                        x: {
+                            title: {},
+                            ticks: {
+                                font: {
+                                    size: 14,
+                                    weight: 'bold',
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
+        function showTopEarners(year, data, ctx) {
+
+            const yearData = data.filter(item => item.Year === year);
+
+            const sortedData = yearData.sort((a, b) => b.Profit - a.Profit);
+
+            const top10Data = sortedData.slice(0, 10);
+
+            const labels = top10Data.map(item => item.Club);
+            const values = top10Data.map(item => Math.abs(item.Profit));
+
+            const backgroundColors = values.map(value => (value >= 0 ? 'rgba(102, 255, 0, 0.7)' : 'rgba(255, 0, 0, 0.7)'));
+
+            if (chart) {
+                chart.destroy();
+            }
+
+            chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            data: values,
+                            backgroundColor: backgroundColors,
+                        },
+                    ],
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        title: {
+                            display: true,
+                            text: `Top 10 Clubs by Transfer Profit in the ${year - 1}/${year} Season (in millions of euros)`,
+                            font: {
+                                size: 20,
+                                weight: 'bold',
+                            },
+                        },
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            stepSize: 50,
+                            max: 250,
+                            ticks: {
+                                font: {
+                                    size: 18,
+
+                                }
+                            }
+                        },
+                        x: {
+                            title: {},
+                            ticks: {
+                                font: {
+                                    size: 14,
+                                    weight: 'bold',
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
+        function showTopLeagueEarners(year, data, ctx, selectedLeague) {
+
+            let step;
+            if (selectedLeague == "Premier League") step = 150;
+            if (selectedLeague == "La Liga") step = 150;
+            if (selectedLeague == "Serie A") step = 200;
+            if (selectedLeague == "League 1") step = 250;
+            if (selectedLeague == "Liga Portugal") step = 100;
+            if (selectedLeague == "Bundesliga") step = 150;
+
+            const filteredData = data.filter(item => item.Year === year && item.League === selectedLeague);
+            const sortedData = filteredData.sort((a, b) => b.Profit - a.Profit);
+            const top10Data = sortedData.slice(0, 10);
+
+            const labels = top10Data.map(item => item.Club);
+            const values = top10Data.map(item => Math.abs(item.Profit));
+
+            const backgroundColors = values.map(value => (value >= 0 ? 'rgba(102, 255, 0, 0.7)' : 'rgba(255, 0, 0, 0.7)'));
+
+            if (chart) {
+                chart.destroy();
+            }
+
+            chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            data: values,
+                            backgroundColor: backgroundColors,
+                        },
+                    ],
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        title: {
+                            display: true,
+                            text: `Top ${selectedLeague} Clubs by Transfer Profit in the ${year - 1}/${year} Season (in millions of euros)`,
+                            font: {
+                                size: 20,
+                                weight: 'bold',
+                            },
+                        },
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            stepSize: 50,
+                            max: step,
+                            ticks: {
+                                font: {
+                                    size: 18,
+
+                                }
+                            }
+                        },
+                        x: {
+                            title: {},
+                            ticks: {
+                                font: {
+                                    size: 14,
+                                    weight: 'bold',
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
+
+        function stopSlideshow() {
+            slideshow = null;
+            leagueSlideshow = null;
+            if (slideshowInterval) {
+                clearInterval(slideshowInterval);
+            }
+        }
+
+
+        function showAllSeasons(data, ctx) {
+
+            const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+            let index = 0;
+
+            function displayNextSeason() {
+                if (index >= years.length || slideshow === null) {
+                    return;
+                }
+
+                const year = years[index];
+                updateChart(year, data, ctx);
+
+                slideshowInterval = setTimeout(() => {
+                    index++;
+                    if (slideshow !== null) {
+                        displayNextSeason();
+                    }
+                }, 3000);
+            }
+
+            displayNextSeason();
+        }
+
+        function showAllLeagueSeasons(data, ctx, selectedLeague) {
+
+            if (selectedLeague == "Liga Portugal") {
+                const years = Array.from({ length: 2016 - 2012 + 1 }, (_, index) => 2012 + index);
+
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    updateLeagueChart(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Ligue 1") {
+                const years = Array.from({ length: 2023 - 2004 + 1 - 5 }, (_, index) => 2004 + index);
+
+                let index = 0;
+                let delay;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueSlideshow === null) {
+                        return;
+                    }
+                    if (index >= 8) {
+                        years[index] += 5;
+                    }
+                    const year = years[index];
+                    updateLeagueChart(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Premier League") {
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    updateLeagueChart(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Bundesliga") {
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    updateLeagueChart(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "La Liga") {
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    updateLeagueChart(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Serie A") {
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    updateLeagueChart(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+
+                displayNextSeason();
+            }
+
+
+        }
+
+        function showAllEarners(data, ctx) {
+
+            const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+            let index = 0;
+
+            function displayNextSeason() {
+                if (index >= years.length || earnersSlideshow === null) {
+                    return;
+                }
+
+                const year = years[index];
+                showTopEarners(year, data, ctx, league);
+
+                slideshowInterval = setTimeout(() => {
+                    index++;
+                    if (earnersSlideshow !== null) {
+                        displayNextSeason();
+                    }
+                }, 3000);
+            }
+            displayNextSeason();
+        }
+
+        function showAllLeagueEarners(data, ctx, selectedLeague) {
+
+            if (selectedLeague == "Liga Portugal") {
+                const years = Array.from({ length: 2016 - 2012 + 1 }, (_, index) => 2012 + index);
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueEarnersSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    showTopLeagueEarners(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueEarnersSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Ligue 1") {
+                const years = Array.from({ length: 2023 - 2004 + 1 - 5 }, (_, index) => 2004 + index);
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueEarnersSlideshow === null) {
+                        return;
+                    }
+
+                    if (index >= 8) {
+                        years[index] += 5;
+                    }
+                    const year = years[index];
+                    showTopLeagueEarners(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueEarnersSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Bundesliga") {
+
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueEarnersSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    showTopLeagueEarners(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueEarnersSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "La Liga") {
+
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueEarnersSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    showTopLeagueEarners(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueEarnersSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+                displayNextSeason();
+            }
+
+            if (selectedLeague == "Serie A") {
+
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueEarnersSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    showTopLeagueEarners(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueEarnersSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+                displayNextSeason();
+            }
+            if (selectedLeague == "Premier League") {
+
+                const years = Array.from({ length: 2023 - 2004 + 1 }, (_, index) => 2004 + index);
+                let index = 0;
+
+                function displayNextSeason() {
+                    if (index >= years.length || leagueEarnersSlideshow === null) {
+                        return;
+                    }
+
+                    const year = years[index];
+                    showTopLeagueEarners(year, data, ctx, league);
+
+                    slideshowInterval = setTimeout(() => {
+                        index++;
+                        if (leagueEarnersSlideshow !== null) {
+                            displayNextSeason();
+                        }
+                    }, 3000);
+                }
+                displayNextSeason();
+            }
+        }
+
+        document.getElementById("playbutton").addEventListener("click", function () {
+            if (slideshow == null && leagueSlideshow == null && earnersSlideshow == null && leagueEarnersSlideshow == null) {
+                if (isLeague == null && isProfit == null) {
+                    if (slideshowInterval) {
+                        clearInterval(slideshowInterval);
+                    }
+                    slideshow = 1;
+                    showAllSeasons(data, ctx);
+                }
+                if (isLeague == null && isProfit != null) {
+                    if (slideshowInterval) {
+                        clearInterval(slideshowInterval);
+                    }
+                    earnersSlideshow = 1;
+                    showAllEarners(data, ctx);
+                }
+                if (isLeague != null && isProfit == null) {
+                    if (slideshowInterval) {
+                        clearInterval(slideshowInterval);
+                    }
+                    leagueSlideshow = 1;
+                    showAllLeagueSeasons(data, ctx, league);
+                }
+                if (isLeague != null && isProfit != null) {
+                    if (slideshowInterval) {
+                        clearInterval(slideshowInterval);
+                    }
+                    leagueEarnersSlideshow = 1;
+                    showAllLeagueEarners(data, ctx, league);
+                }
+            }
+        });
+
+
+        document.getElementById("starbutton").addEventListener("click", function () {
+            stopSlideshow();
+            isProfit = 1;
+            if (league == null) {
+                showTopEarners(currentYear, data, ctx);
+            } else {
+                showTopLeagueEarners(currentYear, data, ctx, league);
+            }
+
+        });
+
+
+        var premierLeagueImage = document.getElementById("premierleague");
+        var laligaImage = document.getElementById("laliga");
+        var serieaImage = document.getElementById("seriea");
+        var bundesligaImage = document.getElementById("bundesliga");
+        var ligue1Image = document.getElementById("ligue1");
+        var ligaPortugalImage = document.getElementById("ligaportugal");
+        var backButtonImage = document.getElementById("backbutton");
+
+        premierLeagueImage.addEventListener("click", function () {
+            stopSlideshow();
+            if (isProfit == 1) {
+                showTopLeagueEarners(currentYear, data, ctx, "Premier League")
+            }
+            else {
+                updateLeagueChart(currentYear, data, ctx, "Premier League");
+            }
+            isLeague = 1;
+            league = "Premier League";
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        });
+
+        laligaImage.addEventListener("click", function () {
+            stopSlideshow();
+            if (isProfit == 1) {
+                showTopLeagueEarners(currentYear, data, ctx, "La Liga")
+            }
+            else {
+                updateLeagueChart(currentYear, data, ctx, "La Liga");
+            }
+            isLeague = 1;
+            league = "La Liga";
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        });
+
+        serieaImage.addEventListener("click", function () {
+            stopSlideshow();
+            if (isProfit == 1) {
+                showTopLeagueEarners(currentYear, data, ctx, "Serie A")
+            }
+            else {
+                updateLeagueChart(currentYear, data, ctx, "Serie A");
+            }
+            isLeague = 1;
+            league = "Serie A";
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        });
+
+        bundesligaImage.addEventListener("click", function () {
+            stopSlideshow();
+            if (isProfit == 1) {
+                showTopLeagueEarners(currentYear, data, ctx, "Bundesliga")
+            }
+            else {
+                updateLeagueChart(currentYear, data, ctx, "Bundesliga");
+            }
+            isLeague = 1;
+            league = "Bundesliga";
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        });
+
+        ligue1Image.addEventListener("click", function () {
+            stopSlideshow();
+            if (isProfit == 1) {
+                showTopLeagueEarners(currentYear, data, ctx, "Ligue 1")
+            }
+            else {
+                updateLeagueChart(currentYear, data, ctx, "Ligue 1");
+            }
+            isLeague = 1;
+            league = "Ligue 1";
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        });
+
+        ligaPortugalImage.addEventListener("click", function () {
+            stopSlideshow();
+            if (isProfit == 1) {
+                showTopLeagueEarners(currentYear, data, ctx, "Liga Portugal")
+            }
+            else {
+                updateLeagueChart(currentYear, data, ctx, "Liga Portugal");
+            }
+            isLeague = 1;
+            league = "Liga Portugal";
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        });
+
+        backButtonImage.addEventListener("click", function () {
+            stopSlideshow();
+            updateChart(currentYear, data, ctx);
+            isLeague = null;
+            league = null;
+            isProfit = null;
+            slideshow = null;
+            leagueSlideshow = null;
+            leagueEarnersSlideshow = null;
+            earnersSlideshow = null;
+        })
+
+        var yearSlider = document.getElementById("yearSlider");
+        var yearLabel = document.getElementById("yearLabel");
+
+        yearSlider.addEventListener("input", function () {
+            var selectedYear = parseInt(this.value);
+            currentYear = selectedYear;
+            updateYearLabel(selectedYear);
+            if (slideshow == null && leagueSlideshow == null && leagueEarnersSlideshow == null && earnersSlideshow == null) {
+                if (isProfit == null && isLeague == null) updateChart(selectedYear, data, ctx);
+                if (isProfit == null && isLeague != null) updateLeagueChart(selectedYear, data, ctx, league);
+                if (isProfit != null && isLeague == null) showTopEarners(selectedYear, data, ctx);
+                if (isProfit != null && isLeague != null) showTopLeagueEarners(selectedYear, data, ctx, league);
+            }
+        });
+
+
+        var ctx = document.getElementById('myBarChart').getContext('2d');
+        let chart;
+        let data;
+
+        Papa.parse('assets/Transferi.csv', {
+            header: true,
+            download: true,
+            dynamicTyping: true,
+            complete: function (results) {
+                data = results.data.map(item => {
+                    item.Year = parseInt(item.Year);
+                    return item;
+                });
+                updateChart(2023, data, ctx);
+            }
+        });
+    </script>
+</body>
+</html>

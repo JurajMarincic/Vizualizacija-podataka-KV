@@ -1,0 +1,1943 @@
+Year;Club;Profit;League
+2023;Arsenal;-168.1;Premier League
+2023;Chelsea;-543.69;Premier League
+2023;Manchester United;-219.63;Premier League
+2023;Liverpool;-56.6;Premier League
+2023;Manchester City;7.17;Premier League
+2023;Tottenham;-139.15;Premier League
+2023;Everton;42.3;Premier League
+2023;West Ham;-164.95;Premier League
+2023;Newcastle;-171.29;Premier League
+2023;Aston Villa;-46.14;Premier League
+2023;Fulham;-50.3;Premier League
+2023;Nottingham Forest;-190.25;Premier League
+2023;Brentford;-47.9;Premier League
+2023;Crystal Palace;-41.15;Premier League
+2023;Brighton;82.2;Premier League
+2023;Wolverhampton;-114.24;Premier League
+2023;Bournemouth;-83.1;Premier League
+2023;Southampton;-146.61;Premier League
+2023;Leicester;33.4;Premier League
+2023;Leeds;-36.89;Premier League
+2023;Real Madrid;12.15;La Liga
+2023;Barcelona;-118.5;La Liga
+2023;Atletico Madrid;-9.25;La Liga
+2023;Sevilla;61.1;La Liga
+2023;Valencia;42.1;La Liga
+2023;Athletic Bilbao;0;La Liga
+2023;Real Sociedad;27.5;La Liga
+2023;Villareal;25.12;La Liga
+2023;Real Betis;-10.52;La Liga
+2023;Osasuna;-1.75;La Liga
+2023;Mallorca;-8.12;La Liga
+2023;Girona;-14.25;La Liga
+2023;Rayo Vallecano;-11.1;La Liga
+2023;Celta de Vigo;-5.15;La Liga
+2023;Getafe;4.75;La Liga
+2023;Cadiz;-10.5;La Liga
+2023;Almeria;-14.88;La Liga
+2023;Real Valladolid;-10;La Liga
+2023;Espanyol;-5.8;La Liga
+2023;Elche;-5.66;La Liga
+2023;Inter;-46.95;Serie A
+2023;Milan;-44.52;Serie A
+2023;Juventus;2.53;Serie A
+2023;Torino;22.12;Serie A
+2023;Napoli;2.13;Serie A
+2023;Lazio;2.45;Serie A
+2023;Roma;65.09;Serie A
+2023;Atalanta;31.55;Serie A
+2023;Fiorentina;11.1;Serie A
+2023;Sassuolo;14.56;Serie A
+2023;Sampdoria;29.1;Serie A
+2023;Udinese;1.3;Serie A
+2023;Bologna;8.88;Serie A
+2023;Monza;-46.48;Serie A
+2023;Empoli;16.51;Serie A
+2023;Hellas Verona;-5.68;Serie A
+2023;Salernitana;-24.1;Serie A
+2023;Spezia;23.32;Serie A
+2023;Lecce;-2.03;Serie A
+2023;Cremonese;-33.8;Serie A
+2023;Paris Saint Germain;-85.7;Ligue 1
+2023;Lyon;46.4;Ligue 1
+2023;Marseille;-82.93;Ligue 1
+2023;Lille;75.5;Ligue 1
+2023;Lens;7.65;Ligue 1
+2023;Rennes;11;Ligue 1
+2023;Monaco;112.7;Ligue 1
+2023;Clermont;19.1;Ligue 1
+2023;Nice;-35.6;Ligue 1
+2023;Lorient;9.25;Ligue 1
+2023;Reims;8.55;Ligue 1
+2023;Montpellier;0.5;Ligue 1
+2023;Toulouse;-3;Ligue 1
+2023;Brest;-3.25;Ligue 1
+2023;Strasbourg;3.9;Ligue 1
+2023;Nantes;-12.45;Ligue 1
+2023;Auxerre;-1.25;Ligue 1
+2023;Ajaccio;0.3;Ligue 1
+2023;Troyes;-14.8;Ligue 1
+2023;Angers;31;Ligue 1
+2023;Bayern Munchen;-42.4;Bundesliga
+2023;Borussia Dortmund;-22.6;Bundesliga
+2023;Wolfsburg;-12.05;Bundesliga
+2023;Leipzig;16.32;Bundesliga
+2023;Union Berlin;6.02;Bundesliga
+2023;Freiburg;5.43;Bundesliga
+2023;Bayer Leverkusen;-5.6;Bundesliga
+2023;Eintrach Frankfurt;-9.4;Bundesliga
+2023;Mainz;0.45;Bundesliga
+2023;Borussia Mochengladbach;-1;Bundesliga
+2023;Koln;6.57;Bundesliga
+2023;Hoffenheim;40.8;Bundesliga
+2023;Werder Bremen;-1.55;Bundesliga
+2023;Bochum;14.27;Bundesliga
+2023;Augsburg;-4.6;Bundesliga
+2023;Stuttgart;37.61;Bundesliga
+2023;Schalke;12.72;Bundesliga
+2023;Hertha;15.4;Bundesliga
+2022;Arsenal;-136;Premier League
+2022;Chelsea;30.94;Premier League
+2022;Manchester United;-110.9;Premier League
+2022;Liverpool;-57.45;Premier League
+2022;Manchester City;-45.1;Premier League
+2022;Tottenham;-61.28;Premier League
+2022;Everton;6.5;Premier League
+2022;West Ham;-70.27;Premier League
+2022;Newcastle;-130.5;Premier League
+2022;Aston Villa;-2.8;Premier League
+2022;Norwich City;-25.15;Premier League
+2022;Burnley;-8.9;Premier League
+2022;Brentford;-37.2;Premier League
+2022;Crystal Palace;-85.62;Premier League
+2022;Brighton;3.8;Premier League
+2022;Wolverhampton;-5.8;Premier League
+2022;Watford;-30.65;Premier League
+2022;Leicester;-63.6;Premier League
+2022;Southampton;-3.05;Premier League
+2022;Leeds;-61.05;Premier League
+2022;Real Madrid;47;La Liga
+2022;Barcelona;1.26;La Liga
+2022;Atletico Madrid;-62.95;La Liga
+2022;Sevilla;-13;La Liga
+2022;Valencia;-10.65;La Liga
+2022;Athletic Bilbao;0;La Liga
+2022;Real Betis;10.75;La Liga
+2022;Real Sociedad;-2.5;La Liga
+2022;Villareal;-44.16;La Liga
+2022;Osasuna;-8.7;La Liga
+2022;Celta de Vigo;-8.22;La Liga
+2022;Rayo Vallecano;-2.1;La Liga
+2022;Elche;-6.1;La Liga
+2022;Espanyol;-6;La Liga
+2022;Getafe;5.84;La Liga
+2022;Mallorca;-1;La Liga
+2022;Cadiz;-6.1;La Liga
+2022;Granada;-14.45;La Liga
+2022;Levante;-0.875;La Liga
+2022;Alaves;1.9;La Liga
+2022;Inter;162.5;Serie A
+2022;Milan;-87.99;Serie A
+2022;Juventus;-70.05;Serie A
+2022;Torino;3.35;Serie A
+2022;Napoli;-20.1;Serie A
+2022;Lazio;-4.9;Serie A
+2022;Atalanta;-16.21;Serie A
+2022;Roma;-110.42;Serie A
+2022;Fiorentina;46.15;Serie A
+2022;Sassuolo;-14.33;Serie A
+2022;Bologna;-7.31;Serie A
+2022;Hellas Verona;-4.76;Serie A
+2022;Udinese;70.23;Serie A
+2022;Cagliari;-7.83;Serie A
+2022;Sampdoria;-5.65;Serie A
+2022;Empoli;17.7;Serie A
+2022;Genoa;-20.49;Serie A
+2022;Venezia;-20.19;Serie A
+2022;Spezia;-25.58;Serie A
+2022;Salernitana;-14.35;Serie A
+2022;Paris Saint Germain;-80;Ligue 1
+2022;Lyon;72.68;Ligue 1
+2022;Marseille;-46.12;Ligue 1
+2022;Lille;51.25;Ligue 1
+2022;Monaco;-10.86;Ligue 1
+2022;Rennes;-36.1;Ligue 1
+2022;Nice;-28.95;Ligue 1
+2022;Strasbourg;11.5;Ligue 1
+2022;Lens;-2.6;Ligue 1
+2022;Nantes;8.3;Ligue 1
+2022;Brest;18.95;Ligue 1
+2022;Reims;-0.95;Ligue 1
+2022;Montpellier;24.8;Ligue 1
+2022;Angers;16.23;Ligue 1
+2022;Troyes;-21.8;Ligue 1
+2022;Lorient;-0.5;Ligue 1
+2022;Clermont;0;Ligue 1
+2022;Saint Etienne;-0.6;Ligue 1
+2022;Metz ;21;Ligue 1
+2022;Bordeaux;8.8;Ligue 1
+2022;Bayern Munchen;-55.2;Bundesliga
+2022;Borussia Dortmund;64.5;Bundesliga
+2022;Wolfsburg;-60.48;Bundesliga
+2022;Bayer Leverkusen;-12.25;Bundesliga
+2022;Leipzig;-12.12;Bundesliga
+2022;Union Berlin;-0.55;Bundesliga
+2022;Freiburg;5.05;Bundesliga
+2022;Koln;22.9;Bundesliga
+2022;Mainz;10.15;Bundesliga
+2022;Hoffenheim;0.85;Bundesliga
+2022;Borussia Mochengladbach;-6.02;Bundesliga
+2022;Eintrach Frankfurt;14.95;Bundesliga
+2022;Greuther Furth;3.15;Bundesliga
+2022;Bochum;0.35;Bundesliga
+2022;Augsburg;-11.26;Bundesliga
+2022;Stuttgart;26.07;Bundesliga
+2022;Hertha;30.1;Bundesliga
+2022;Arminia Bielefeld;-8.94;Bundesliga
+2021;Arsenal;-67;Premier League
+2021;Chelsea;-190.05;Premier League
+2021;Manchester United;-64.3;Premier League
+2021;Liverpool;-66.85;Premier League
+2021;Manchester City;-109.4;Premier League
+2021;Tottenham;-97.2;Premier League
+2021;Everton;-69.95;Premier League
+2021;Leicester;-5.63;Premier League
+2021;West Ham;-9.29;Premier League
+2021;Leeds;-127.8;Premier League
+2021;Aston Villa;-98.58;Premier League
+2021;Newcastle;-38.73;Premier League
+2021;Wolverhampton;-8.39;Premier League
+2021;Crystal Palace;-2.4;Premier League
+2021;Southampton;-11;Premier League
+2021;Brighton;-29.5;Premier League
+2021;Burnley;1.2;Premier League
+2021;Fulham;-37.25;Premier League
+2021;West Bromwich Albion;-34.04;Premier League
+2021;Sheffield United;-62.7;Premier League
+2021;Real Madrid;108.2;La Liga
+2021;Barcelona;42.46;La Liga
+2021;Atletico Madrid;-8.7;La Liga
+2021;Sevilla;-54.67;La Liga
+2021;Valencia;88.8;La Liga
+2021;Athletic Bilbao;-12;La Liga
+2021;Real Sociedad;18.25;La Liga
+2021;Real Betis;43.7;La Liga
+2021;Villareal;-9.85;La Liga
+2021;Celta de Vigo;-0.5;La Liga
+2021;Granada;-20.5;La Liga
+2021;Osasuna;-5.7;La Liga
+2021;Cadiz;-10.1;La Liga
+2021;Levante;-3;La Liga
+2021;Getafe;-12.3;La Liga
+2021;Alaves;4.88;La Liga
+2021;Elche;1.2;La Liga
+2021;Huesca;-4.65;La Liga
+2021;Real Valladolid;2.25;La Liga
+2021;Eibar;-1.85;La Liga
+2021;Inter;-43.55;Serie A
+2021;Milan;20.17;Serie A
+2021;Juventus;-52.05;Serie A
+2021;Torino;-19.7;Serie A
+2021;Napoli;45.81;Serie A
+2021;Lazio;-34.85;Serie A
+2021;Atalanta;13.37;Serie A
+2021;Roma;-23.1;Serie A
+2021;Fiorentina;4.59;Serie A
+2021;Sassuolo;32.7;Serie A
+2021;Cagliari;8.48;Serie A
+2021;Udinese;10.05;Serie A
+2021;Hellas Verona;-13.55;Serie A
+2021;Bologna;1.85;Serie A
+2021;Parma;-100.33;Serie A
+2021;Sampdoria;-5.65;Serie A
+2021;Genoa;2.61;Serie A
+2021;Spezia;-3.18;Serie A
+2021;Crotone;-5.49;Serie A
+2021;Benevento;-10.6;Serie A
+2021;Paris Saint Germain;-61.6;Ligue 1
+2021;Lyon;13.56;Ligue 1
+2021;Marseille;14.63;Ligue 1
+2021;Lille;63.75;Ligue 1
+2021;Monaco;-39.17;Ligue 1
+2021;Rennes;-15.14;Ligue 1
+2021;Lens;-19;Ligue 1
+2021;Montpellier;-13.1;Ligue 1
+2021;Nice;-8.72;Ligue 1
+2021;Metz ;-4.7;Ligue 1
+2021;Saint Etienne;37.9;Ligue 1
+2021;Bordeaux;17;Ligue 1
+2021;Angers;-0.55;Ligue 1
+2021;Reims;5.8;Ligue 1
+2021;Strasbourg;-11.5;Ligue 1
+2021;Lorient;-20;Ligue 1
+2021;Brest;-4.1;Ligue 1
+2021;Nantes;-3;Ligue 1
+2021;Nimes;-8.75;Ligue 1
+2021;Dijon;1.2;Ligue 1
+2021;Bayern Munchen;-44;Bundesliga
+2021;Borussia Dortmund;-49.65;Bundesliga
+2021;Wolfsburg;-10.9;Bundesliga
+2021;Leipzig;5.5;Bundesliga
+2021;Eintrach Frankfurt;6.95;Bundesliga
+2021;Bayer Leverkusen;44.8;Bundesliga
+2021;Union Berlin;5.22;Bundesliga
+2021;Borussia Mochengladbach;-13.5;Bundesliga
+2021;Stuttgart;-7.45;Bundesliga
+2021;Freiburg;23.6;Bundesliga
+2021;Hoffenheim;13.75;Bundesliga
+2021;Mainz;11.7;Bundesliga
+2021;Augsburg;0.4;Bundesliga
+2021;Hertha;-20.8;Bundesliga
+2021;Arminia Bielefeld;-0.4;Bundesliga
+2021;Koln;-3.5;Bundesliga
+2021;Werder Bremen;0.7;Bundesliga
+2021;Schalke;6;Bundesliga
+2020;Arsenal;-107;Premier League
+2020;Chelsea;112.27;Premier League
+2020;Manchester United;-155.62;Premier League
+2020;Liverpool;37.6;Premier League
+2020;Manchester City;-98.82;Premier League
+2020;Tottenham;-86;Premier League
+2020;Everton;-33.2;Premier League
+2020;Leicester;-15.8;Premier League
+2020;Wolverhampton;-92.6;Premier League
+2020;Sheffield United;-72.15;Premier League
+2020;Burnley;-10.3;Premier League
+2020;Southampton;-34.2;Premier League
+2020;Newcastle;-37.26;Premier League
+2020;Crystal Palace;47.78;Premier League
+2020;Brighton;-53.24;Premier League
+2020;West Ham;-64.32;Premier League
+2020;Aston Villa;-156.5;Premier League
+2020;Bournemouth;-20.29;Premier League
+2020;Watford;-30.6;Premier League
+2020;Norwich City;-6.62;Premier League
+2020;Real Madrid;-218.7;La Liga
+2020;Barcelona;-144.1;La Liga
+2020;Atletico Madrid;68.95;La Liga
+2020;Sevilla;-57.28;La Liga
+2020;Valencia;-18.7;La Liga
+2020;Athletic Bilbao;0;La Liga
+2020;Villareal;25.5;La Liga
+2020;Real Sociedad;-22.25;La Liga
+2020;Granada;-10.94;La Liga
+2020;Getafe;-10.25;La Liga
+2020;Mallorca;-7.5;La Liga
+2020;Osasuna;-14.15;La Liga
+2020;Levante;0.3;La Liga
+2020;Real Valladolid;6.6;La Liga
+2020;Eibar;9.7;La Liga
+2020;Real Betis;-24.45;La Liga
+2020;Alaves;10.73;La Liga
+2020;Celta de Vigo;16.05;La Liga
+2020;Leganes;24.37;La Liga
+2020;Espanyol;-0.5;La Liga
+2020;Inter;-124.98;Serie A
+2020;Milan;-64.85;Serie A
+2020;Juventus;-27.36;Serie A
+2020;Torino;-4.4;Serie A
+2020;Napoli;-157.8;Serie A
+2020;Lazio;-14.6;Serie A
+2020;Roma;-11.03;Serie A
+2020;Fiorentina;-41.22;Serie A
+2020;Atalanta;45.04;Serie A
+2020;Sassuolo;-14.66;Serie A
+2020;Cagliari;-21.24;Serie A
+2020;Genoa;15.98;Serie A
+2020;Sampdoria;9.34;Serie A
+2020;Bologna;-40.86;Serie A
+2020;Parma;-5.15;Serie A
+2020;Udinese;46.42;Serie A
+2020;Hellas Verona;22.48;Serie A
+2020;Brescia;-18.55;Serie A
+2020;SPAL;13.55;Serie A
+2020;Lecce;-5.75;Serie A
+2020;Paris Saint Germain;17.4;Ligue 1
+2020;Lyon;34.32;Ligue 1
+2020;Marseille;0.25;Ligue 1
+2020;Lille;51.6;Ligue 1
+2020;Rennes;-3.6;Ligue 1
+2020;Reims;4.9;Ligue 1
+2020;Nice;-29.09;Ligue 1
+2020;Montpellier;19.7;Ligue 1
+2020;Monaco;-116.25;Ligue 1
+2020;Strasbourg;10.5;Ligue 1
+2020;Angers;23.6;Ligue 1
+2020;Bordeaux;45.25;Ligue 1
+2020;Nantes;19.75;Ligue 1
+2020;Brest;-7;Ligue 1
+2020;Dijon;14.04;Ligue 1
+2020;Saint Etienne;32.4;Ligue 1
+2020;Nimes;10.65;Ligue 1
+2020;Amiens;-12.72;Ligue 1
+2020;Toulouse;3.15;Ligue 1
+2020;Metz ;-11.75;Ligue 1
+2020;Bayern Munchen;-85.5;Bundesliga
+2020;Borussia Dortmund;-16.25;Bundesliga
+2020;Wolfsburg;-20.5;Bundesliga
+2020;Leipzig;-47.75;Bundesliga
+2020;Borussia Mochengladbach;-6.4;Bundesliga
+2020;Bayer Leverkusen;-64.7;Bundesliga
+2020;Hoffenheim;65.55;Bundesliga
+2020;Freiburg;-9.4;Bundesliga
+2020;Eintrach Frankfurt;32.17;Bundesliga
+2020;Hertha;-87.26;Bundesliga
+2020;Union Berlin;-8.8;Bundesliga
+2020;Schalke;-10.05;Bundesliga
+2020;Mainz;-3.7;Bundesliga
+2020;Koln;-13.4;Bundesliga
+2020;Augsburg;-13;Bundesliga
+2020;Werder Bremen;-13.95;Bundesliga
+2020;Fortuna Dusseldorf;0.45;Bundesliga
+2020;Paderborn;5.05;Bundesliga
+2019;Arsenal;-71;Premier League
+2019;Chelsea;-125.55;Premier League
+2019;Manchester United;-52.15;Premier League
+2019;Liverpool;-140.88;Premier League
+2019;Manchester City;-20.99;Premier League
+2019;Tottenham;5.35;Premier League
+2019;Everton;-71.15;Premier League
+2019;Wolverhampton;-89.45;Premier League
+2019;Leicester;-18.8;Premier League
+2019;West Ham;-87.14;Premier League
+2019;Watford;21.74;Premier League
+2019;Crystal Palace;-11.5;Premier League
+2019;Newcastle;-8.7;Premier League
+2019;Bournemouth;-71.4;Premier League
+2019;Burnley;-25;Premier League
+2019;Southampton;-36.15;Premier League
+2019;Brighton;-73.5;Premier League
+2019;Cardiff City;-51.2;Premier League
+2019;Fulham;-111.15;Premier League
+2019;Huddersfield;-38.27;Premier League
+2019;Real Madrid;-28.65;La Liga
+2019;Barcelona;4.95;La Liga
+2019;Atletico Madrid;110.1;La Liga
+2019;Sevilla;12.75;La Liga
+2019;Valencia;-60.4;La Liga
+2019;Athletic Bilbao;47.1;La Liga
+2019;Getafe;-22.5;La Liga
+2019;Espanyol;8.7;La Liga
+2019;Real Sociedad;20.8;La Liga
+2019;Real Betis;2.3;La Liga
+2019;Alaves;-1;La Liga
+2019;Eibar;-0.25;La Liga
+2019;Leganes;5.7;La Liga
+2019;Villareal;-38.1;La Liga
+2019;Levante;14.8;La Liga
+2019;Real Valladolid;-10.1;La Liga
+2019;Celta de Vigo;5.7;La Liga
+2019;Girona;-6.9;La Liga
+2019;Huesca;-8.9;La Liga
+2019;Rayo Vallecano;0.7;La Liga
+2019;Inter;-6.43;Serie A
+2019;Milan;-106.54;Serie A
+2019;Juventus;-150.66;Serie A
+2019;Torino;-35.95;Serie A
+2019;Napoli;29.8;Serie A
+2019;Lazio;-12.68;Serie A
+2019;Roma;-15.88;Serie A
+2019;Atalanta;-35.74;Serie A
+2019;Fiorentina;-17.38;Serie A
+2019;Sassuolo;-3.59;Serie A
+2019;Sampdoria;33.42;Serie A
+2019;Udinese;-39.37;Serie A
+2019;Genoa;25.29;Serie A
+2019;Cagliari;-14.65;Serie A
+2019;Bologna;13.78;Serie A
+2019;Empoli;5.6;Serie A
+2019;SPAL;-20.05;Serie A
+2019;Parma;-19.81;Serie A
+2019;Chievo Verona;8.15;Serie A
+2019;Frosinone;-8.76;Serie A
+2019;Paris Saint Germain;-148;Ligue 1
+2019;Lyon;43.65;Ligue 1
+2019;Marseille;-33.15;Ligue 1
+2019;Lille;40.6;Ligue 1
+2019;Saint Etienne;3.7;Ligue 1
+2019;Montpellier;15.35;Ligue 1
+2019;Nice;33.7;Ligue 1
+2019;Reims;-4.5;Ligue 1
+2019;Nimes;-3.15;Ligue 1
+2019;Rennes;0.5;Ligue 1
+2019;Strasbourg;-1.75;Ligue 1
+2019;Nantes;7.85;Ligue 1
+2019;Angers;16.55;Ligue 1
+2019;Bordeaux;2.925;Ligue 1
+2019;Amiens;2.51;Ligue 1
+2019;Toulouse;17.05;Ligue 1
+2019;Monaco;221.4;Ligue 1
+2019;Dijon;-5.2;Ligue 1
+2019;Caen;4.55;Ligue 1
+2019;Guingamp;0.5;Ligue 1
+2019;Bayern Munchen;70;Bundesliga
+2019;Borussia Dortmund;23.7;Bundesliga
+2019;Wolfsburg;-35.2;Bundesliga
+2019;Leipzig;7.12;Bundesliga
+2019;Bayer Leverkusen;13.5;Bundesliga
+2019;Borussia Mochengladbach;0.4;Bundesliga
+2019;Eintrach Frankfurt;-10.05;Bundesliga
+2019;Werder Bremen;1.05;Bundesliga
+2019;Hoffenheim;-25.88;Bundesliga
+2019;Fortuna Dusseldorf;-6.9;Bundesliga
+2019;Hertha;0.9;Bundesliga
+2019;Mainz;26.1;Bundesliga
+2019;Freiburg;4.28;Bundesliga
+2019;Schalke;-16.05;Bundesliga
+2019;Augsburg;-3.8;Bundesliga
+2019;Stuttgart;-32.51;Bundesliga
+2019;Hannover;-4.98;Bundesliga
+2019;Nurnberg;-4.85;Bundesliga
+2018;Arsenal;9.15;Premier League
+2018;Chelsea;-65.9;Premier League
+2018;Manchester United;-152.9;Premier League
+2018;Liverpool;10.85;Premier League
+2018;Manchester City;-226.15;Premier League
+2018;Tottenham;-17.2;Premier League
+2018;Everton;-76.82;Premier League
+2018;Burnley;14.26;Premier League
+2018;Leicester;-33.75;Premier League
+2018;Newcastle;-25.28;Premier League
+2018;Crystal Palace;-52.95;Premier League
+2018;Bournemouth;-34.3;Premier League
+2018;West Ham;12.22;Premier League
+2018;Watford;-54.66;Premier League
+2018;Brighton;-66.1;Premier League
+2018;Huddersfield;-50.3;Premier League
+2018;Southampton;37.1;Premier League
+2018;Swansea City;7.72;Premier League
+2018;Stoke City;-22.56;Premier League
+2018;West Ham;12.22;Premier League
+2018;Real Madrid;92;La Liga
+2018;Barcelona;-142.6;La Liga
+2018;Atletico Madrid;8.4;La Liga
+2018;Sevilla;3.55;La Liga
+2018;Valencia;-38.45;La Liga
+2018;Athletic Bilbao;33;La Liga
+2018;Villareal;21.9;La Liga
+2018;Real Betis;-11.43;La Liga
+2018;Getafe;-11.3;La Liga
+2018;Eibar;-0.25;La Liga
+2018;Girona;-8.75;La Liga
+2018;Espanyol;-6.55;La Liga
+2018;Real Sociedad;27.5;La Liga
+2018;Celta de Vigo;-13.6;La Liga
+2018;Alaves;-4.83;La Liga
+2018;Levante;3.85;La Liga
+2018;Leganes;-6.42;La Liga
+2018;Deportivo La Coruna;-4;La Liga
+2018;Las Palmas;25.35;La Liga
+2018;Malaga;22.9;La Liga
+2018;Inter;-58.39;Serie A
+2018;Milan;-146.78;Serie A
+2018;Juventus;-31.95;Serie A
+2018;Torino;53.42;Serie A
+2018;Napoli;-50.55;Serie A
+2018;Lazio;45.67;Serie A
+2018;Roma;66.8;Serie A
+2018;Fiorentina;14.08;Serie A
+2018;Atalanta;11.45;Serie A
+2018;Sampdoria;20.46;Serie A
+2018;Genoa;32.55;Serie A
+2018;Sassuolo;-19.45;Serie A
+2018;Udinese;-4.89;Serie A
+2018;Bologna;-13;Serie A
+2018;Cagliari;-11.22;Serie A
+2018;SPAL;-8.16;Serie A
+2018;Benevento;-19.5;Serie A
+2018;Hellas Verona;5;Serie A
+2018;Chievo Verona;14.72;Serie A
+2018;Crotone;-3;Serie A
+2018;Paris Saint Germain;-139.6;Ligue 1
+2018;Lyon;61.5;Ligue 1
+2018;Marseille;-59.25;Ligue 1
+2018;Lille;-45.4;Ligue 1
+2018;Monaco;77.1;Ligue 1
+2018;Rennes;-38.1;Ligue 1
+2018;Bordeaux;-4.35;Ligue 1
+2018;Saint Etienne;-3.8;Ligue 1
+2018;Nice;1.2;Ligue 1
+2018;Nantes;-1.3;Ligue 1
+2018;Montpellier;15.1;Ligue 1
+2018;Dijon;9.5;Ligue 1
+2018;Guingamp;4.58;Ligue 1
+2018;Amiens;1.37;Ligue 1
+2018;Angers;13.6;Ligue 1
+2018;Strasbourg;-3.4;Ligue 1
+2018;Caen;-0.95;Ligue 1
+2018;Toulouse;9.5;Ligue 1
+2018;Troyes;0;Ligue 1
+2018;Metz ;19.25;Ligue 1
+2018;Bayern Munchen;-84.25;Bundesliga
+2018;Borussia Dortmund;148.36;Bundesliga
+2018;Wolfsburg;-36.75;Bundesliga
+2018;Schalke;-42.2;Bundesliga
+2018;Hoffenheim;31.05;Bundesliga
+2018;Bayer Leverkusen;40.1;Bundesliga
+2018;Leipzig;-38.96;Bundesliga
+2018;Stuttgart;-23.3;Bundesliga
+2018;Eintrach Frankfurt;-14.29;Bundesliga
+2018;Borussia Mochengladbach;-6.17;Bundesliga
+2018;Hertha;4;Bundesliga
+2018;Werder Bremen;-9.7;Bundesliga
+2018;Augsburg;0.35;Bundesliga
+2018;Hannover;-18.75;Bundesliga
+2018;Mainz;8.3;Bundesliga
+2018;Freiburg;8.15;Bundesliga
+2018;Hamburger;-13.45;Bundesliga
+2018;Koln;-32.55;Bundesliga
+2017;Arsenal;-102.65;Premier League
+2017;Chelsea;-23.9;Premier League
+2017;Manchester United;-137.75;Premier League
+2017;Liverpool;5.48;Premier League
+2017;Manchester City;-180.9;Premier League
+2017;Tottenham;-31.2;Premier League
+2017;Everton;-25.2;Premier League
+2017;Southampton;16.15;Premier League
+2017;Bournemouth;-17;Premier League
+2017;West Bromwich Albion;-10.93;Premier League
+2017;West Ham;-42.5;Premier League
+2017;Leicester;-26.05;Premier League
+2017;Stoke City;-38.37;Premier League
+2017;Crystal Palace;-51;Premier League
+2017;Swansea City;-8.8;Premier League
+2017;Burnley;-44.4;Premier League
+2017;Watford;-12.35;Premier League
+2017;Hull City;-11.1;Premier League
+2017;Middlesbrough;-34.45;Premier League
+2017;Sunderland;-18.13;Premier League
+2017;Real Madrid;7.5;La Liga
+2017;Barcelona;-90.95;La Liga
+2017;Atletico Madrid;-34.8;La Liga
+2017;Sevilla;11.75;La Liga
+2017;Valencia;85.9;La Liga
+2017;Athletic Bilbao;0;La Liga
+2017;Villareal;11.3;La Liga
+2017;Real Sociedad;-7;La Liga
+2017;Espanyol;-12.4;La Liga
+2017;Alaves;-6.33;La Liga
+2017;Eibar;-3.6;La Liga
+2017;Malaga;-13.04;La Liga
+2017;Celta de Vigo;11.4;La Liga
+2017;Las Palmas;-2.7;La Liga
+2017;Real Betis;-12.9;La Liga
+2017;Deportivo La Coruna;13;La Liga
+2017;Leganes;-5.25;La Liga
+2017;Sporting Gijon;-1;La Liga
+2017;Osasuna;1.55;La Liga
+2017;Granada;20.03;La Liga
+2017;Inter;-146.13;Serie A
+2017;Milan;-4.41;Serie A
+2017;Juventus;-25.3;Serie A
+2017;Torino;-2.35;Serie A
+2017;Napoli;17.72;Serie A
+2017;Lazio;-4;Serie A
+2017;Roma;-27.07;Serie A
+2017;Fiorentina;15.32;Serie A
+2017;Atalanta;25.39;Serie A
+2017;Sassuolo;0.292;Serie A
+2017;Sampdoria;41.05;Serie A
+2017;Genoa;23.1;Serie A
+2017;Udinese;5.73;Serie A
+2017;Bologna;-14.32;Serie A
+2017;Cagliari;1.9;Serie A
+2017;Empoli;8;Serie A
+2017;Pescara;7.98;Serie A
+2017;Chievo Verona;-6.29;Serie A
+2017;Palermo;20.78;Serie A
+2017;Crotone;1.8;Serie A
+2017;Paris Saint Germain;-74.7;Ligue 1
+2017;Lyon;-1.3;Ligue 1
+2017;Marseille;28.49;Ligue 1
+2017;Lille;26.3;Ligue 1
+2017;Monaco;-32.05;Ligue 1
+2017;Nice;0.55;Ligue 1
+2017;Bordeaux;-9.25;Ligue 1
+2017;Nantes;-2.36;Ligue 1
+2017;Saint Etienne;-4.75;Ligue 1
+2017;Rennes;53.03;Ligue 1
+2017;Guingamp;2.5;Ligue 1
+2017;Angers;-0.8;Ligue 1
+2017;Toulouse;-3;Ligue 1
+2017;Metz ;0.375;Ligue 1
+2017;Montpellier;13;Ligue 1
+2017;Dijon;-1.9;Ligue 1
+2017;Caen;6.75;Ligue 1
+2017;Lorient;23.55;Ligue 1
+2017;Nancy;8.6;Ligue 1
+2017;Bastia;6.75;Ligue 1
+2017;Bayern Munchen;-17.7;Bundesliga
+2017;Borussia Dortmund;-30.1;Bundesliga
+2017;Wolfsburg;13.4;Bundesliga
+2017;Leipzig;-95.85;Bundesliga
+2017;Hoffenheim;9.56;Bundesliga
+2017;Koln;10.65;Bundesliga
+2017;Hertha;-1.7;Bundesliga
+2017;Freiburg;-11.63;Bundesliga
+2017;Werder Bremen;3.5;Bundesliga
+2017;Borussia Mochengladbach;3.85;Bundesliga
+2017;Schalke;18;Bundesliga
+2017;Eintrach Frankfurt;8.25;Bundesliga
+2017;Bayer Leverkusen;-39.6;Bundesliga
+2017;Augsburg;-8.65;Bundesliga
+2017;Hamburger;-35.2;Bundesliga
+2017;Mainz;-3.51;Bundesliga
+2017;Ingolstadt;-3.4;Bundesliga
+2017;Darmstadt;1.1;Bundesliga
+2016;Arsenal;-24;Premier League
+2016;Chelsea;-9.01;Premier League
+2016;Manchester United;-55.33;Premier League
+2016;Liverpool;-35.95;Premier League
+2016;Manchester City;-141.03;Premier League
+2016;Tottenham;16.25;Premier League
+2016;Everton;-37.2;Premier League
+2016;Southampton;-7.4;Premier League
+2016;West Ham;-34.19;Premier League
+2016;Stoke City;-30.45;Premier League
+2016;Swansea City;-5.01;Premier League
+2016;Watford;-73.05;Premier League
+2016;West Bromwich Albion;-29.98;Premier League
+2016;Crystal Palace;-23.4;Premier League
+2016;Bournemouth;-54.46;Premier League
+2016;Sunderland;-55.05;Premier League
+2016;Newcastle;-102.48;Premier League
+2016;Norwich City;-29.01;Premier League
+2016;Aston Villa;-1.85;Premier League
+2016;Leicester;-40.45;Premier League
+2016;Real Madrid;-76.25;La Liga
+2016;Barcelona;-12.7;La Liga
+2016;Atletico Madrid;33;La Liga
+2016;Sevilla;17.45;La Liga
+2016;Valencia;-93.9;La Liga
+2016;Athletic Bilbao;-10;La Liga
+2016;Villareal;-9.64;La Liga
+2016;Celta de Vigo;2.2;La Liga
+2016;Malaga;38.15;La Liga
+2016;Real Sociedad;-25.1;La Liga
+2016;Real Betis;-7.8;La Liga
+2016;Las Palmas;-6.4;La Liga
+2016;Eibar;-3.7;La Liga
+2016;Espanyol;10.75;La Liga
+2016;Deportivo La Coruna;-8;La Liga
+2016;Granada;7.32;La Liga
+2016;Sporting Gijon;0;La Liga
+2016;Rayo Vallecano;-0.4;La Liga
+2016;Getafe;3.83;La Liga
+2016;Levante;-6.55;La Liga
+2016;Inter;12.87;Serie A
+2016;Milan;-91.12;Serie A
+2016;Juventus;-72.22;Serie A
+2016;Torino;-8.3;Serie A
+2016;Napoli;-24.41;Serie A
+2016;Lazio;-28.88;Serie A
+2016;Roma;41.4;Serie A
+2016;Fiorentina;1.95;Serie A
+2016;Sampdoria;-17.85;Serie A
+2016;Genoa;26.45;Serie A
+2016;Sassuolo;-5.7;Serie A
+2016;Udinese;52.7;Serie A
+2016;Atalanta;11.27;Serie A
+2016;Bologna;-25.83;Serie A
+2016;Empoli;5.15;Serie A
+2016;Palermo;40.65;Serie A
+2016;Carpi;-0.025;Serie A
+2016;Chievo Verona;9.27;Serie A
+2016;Hellas Verona;-4.25;Serie A
+2016;Frosinone;-0.2;Serie A
+2016;Benfica;68.95;Liga Portugal
+2016;Sporting;9.25;Liga Portugal
+2016;Porto;96.15;Liga Portugal
+2016;Braga;24.13;Liga Portugal
+2016;Arouca;0.7;Liga Portugal
+2016;Rio Ave;6.89;Liga Portugal
+2016;Pacos Ferreira;3.25;Liga Portugal
+2016;Estoril Praia;2.65;Liga Portugal
+2016;Belenenses;1.55;Liga Portugal
+2016;Vitoria Guimaraes;5.25;Liga Portugal
+2016;Nacional;5.88;Liga Portugal
+2016;Moreirense;0.2;Liga Portugal
+2016;Maritimo;11;Liga Portugal
+2016;Boavista;1.48;Liga Portugal
+2016;Tondela;0;Liga Portugal
+2016;Vitoria Setubal;1.5;Liga Portugal
+2016;Uniao Madeira;0;Liga Portugal
+2016;Coimbra;0;Liga Portugal
+2016;Bayern Munchen;-57.75;Bundesliga
+2016;Borussia Dortmund;22.55;Bundesliga
+2016;Wolfsburg;43.2;Bundesliga
+2016;Bayer Leverkusen;5.25;Bundesliga
+2016;Borussia Mochengladbach;-22.3;Bundesliga
+2016;Schalke;20.1;Bundesliga
+2016;Mainz;20.35;Bundesliga
+2016;Hertha;-2.38;Bundesliga
+2016;Koln;-1.73;Bundesliga
+2016;Hamburger;-8.65;Bundesliga
+2016;Ingolstadt;-6.2;Bundesliga
+2016;Augsburg;10.2;Bundesliga
+2016;Werder Bremen;6.57;Bundesliga
+2016;Darmstadt;-1.1;Bundesliga
+2016;Hoffenheim;33.75;Bundesliga
+2016;Eintrach Frankfurt;0.28;Bundesliga
+2016;Stuttgart;4.88;Bundesliga
+2016;Hannover;-4.9;Bundesliga
+2015;Arsenal;-91;Premier League
+2015;Chelsea;5.11;Premier League
+2015;Manchester United;-148.65;Premier League
+2015;Liverpool;-52.16;Premier League
+2015;Manchester City;-72.5;Premier League
+2015;Tottenham;-4.33;Premier League
+2015;Everton;-38.26;Premier League
+2015;Southampton;27.83;Premier League
+2015;Swansea City;20.37;Premier League
+2015;Stoke City;2;Premier League
+2015;Crystal Palace;-28.35;Premier League
+2015;West Ham;-30.75;Premier League
+2015;West Bromwich Albion;-22.58;Premier League
+2015;Leicester;-22.86;Premier League
+2015;Newcastle;-21.15;Premier League
+2015;Sunderland;-15.27;Premier League
+2015;Aston Villa;-12.14;Premier League
+2015;Hull City;-29.52;Premier League
+2015;Burnley;-12.62;Premier League
+2015;Queens Park Rangers;-17.5;Premier League
+2015;Real Madrid;-13.9;La Liga
+2015;Barcelona;-84.92;La Liga
+2015;Atletico Madrid;-31.05;La Liga
+2015;Sevilla;29.6;La Liga
+2015;Valencia;0.4;La Liga
+2015;Athletic Bilbao;35;La Liga
+2015;Villareal;-6.95;La Liga
+2015;Celta de Vigo;-2.4;La Liga
+2015;Malaga;17.49;La Liga
+2015;Espanyol;8.5;La Liga
+2015;Rayo Vallecano;0.15;La Liga
+2015;Real Sociedad;33.2;La Liga
+2015;Elche;4.66;La Liga
+2015;Levante;9.2;La Liga
+2015;Getafe;8;La Liga
+2015;Deportivo La Coruna;-1.4;La Liga
+2015;Granada;13.08;La Liga
+2015;Eibar;0.438;La Liga
+2015;Almeria;3;La Liga
+2015;Cordoba;-0.75;La Liga
+2015;Inter;6.65;Serie A
+2015;Milan;11.3;Serie A
+2015;Juventus;-34.89;Serie A
+2015;Torino;10.66;Serie A
+2015;Napoli;-14.35;Serie A
+2015;Lazio;-12.6;Serie A
+2015;Roma;-58.81;Serie A
+2015;Fiorentina;28.9;Serie A
+2015;Sampdoria;2.17;Serie A
+2015;Genoa;18.5;Serie A
+2015;Udinese;-3.8;Serie A
+2015;Palermo;-1.2;Serie A
+2015;Sassuolo;-6.7;Serie A
+2015;Atalanta;8.91;Serie A
+2015;Cesena;4.8;Serie A
+2015;Cagliari;-0.675;Serie A
+2015;Parma;0.015;Serie A
+2015;Chievo Verona;-3.56;Serie A
+2015;Empoli;3.7;Serie A
+2015;Hellas Verona;7.99;Serie A
+2015;Benfica;66;Liga Portugal
+2015;Porto;42.71;Liga Portugal
+2015;Sporting;20.32;Liga Portugal
+2015;Braga;-17.85;Liga Portugal
+2015;Vitoria Guimaraes;6.96;Liga Portugal
+2015;Belenenses;0.4;Liga Portugal
+2015;Nacional;4.99;Liga Portugal
+2015;Pacos Ferreira;0;Liga Portugal
+2015;Maritimo;3.53;Liga Portugal
+2015;Rio Ave;-0.2;Liga Portugal
+2015;Moreirense;0.7;Liga Portugal
+2015;Estoril Praia;6.53;Liga Portugal
+2015;Boavista;0;Liga Portugal
+2015;Coimbra;0;Liga Portugal
+2015;Vitoria Setubal;1;Liga Portugal
+2015;Arouca;0;Liga Portugal
+2015;Gil Vicente;0;Liga Portugal
+2015;Penafiel;0;Liga Portugal
+2015;Bayern Munchen;-4.7;Bundesliga
+2015;Borussia Dortmund;-60.4;Bundesliga
+2015;Wolfsburg;-38.8;Bundesliga
+2015;Borussia Mochengladbach;5.15;Bundesliga
+2015;Bayer Leverkusen;-20.96;Bundesliga
+2015;Augsburg;-5.55;Bundesliga
+2015;Schalke;4.2;Bundesliga
+2015;Hoffenheim;-4.78;Bundesliga
+2015;Eintrach Frankfurt;-0.575;Bundesliga
+2015;Werder Bremen;-3.2;Bundesliga
+2015;Mainz;-2.52;Bundesliga
+2015;Koln;-8.3;Bundesliga
+2015;Hannover;-7.3;Bundesliga
+2015;Stuttgart;-10.05;Bundesliga
+2015;Hertha;4.95;Bundesliga
+2015;Hamburger;-11.9;Bundesliga
+2015;Freiburg;4.25;Bundesliga
+2015;Paderborn;-1.95;Bundesliga
+2014;Arsenal;-37;Premier League
+2014;Chelsea;-52.42;Premier League
+2014;Manchester United;-75.33;Premier League
+2014;Liverpool;-25.6;Premier League
+2014;Manchester City;-104.2;Premier League
+2014;Tottenham;15.85;Premier League
+2014;Everton;14.3;Premier League
+2014;Southampton;-35.4;Premier League
+2014;Stoke City;-7;Premier League
+2014;Newcastle;22.07;Premier League
+2014;Crystal Palace;-33;Premier League
+2014;Swansea City;-26.61;Premier League
+2014;West Ham;-23.47;Premier League
+2014;Sunderland;-11.53;Premier League
+2014;Aston Villa;-11.74;Premier League
+2014;Hull City;-30.22;Premier League
+2014;West Bromwich Albion;-4.3;Premier League
+2014;Norwich City;-25.22;Premier League
+2014;Fulham;-25.15;Premier League
+2014;Cardiff City;-42.08;Premier League
+2014;Real Madrid;-62;La Liga
+2014;Barcelona;-72.9;La Liga
+2014;Atletico Madrid;34.01;La Liga
+2014;Sevilla;55.68;La Liga
+2014;Valencia;24.63;La Liga
+2014;Athletic Bilbao;-15.4;La Liga
+2014;Real Sociedad;25.5;La Liga
+2014;Villareal;47.78;La Liga
+2014;Celta de Vigo;4.4;La Liga
+2014;Levante;4.32;La Liga
+2014;Malaga;32.42;La Liga
+2014;Rayo Vallecano;7;La Liga
+2014;Getafe;4.5;La Liga
+2014;Espanyol;12.15;La Liga
+2014;Granada;0.721;La Liga
+2014;Elche;-2.23;La Liga
+2014;Almeria;1;La Liga
+2014;Osasuna;0.9;La Liga
+2014;Real Valladolid;0.75;La Liga
+2014;Real Betis;2.58;La Liga
+2014;Inter;-48.89;Serie A
+2014;Milan;-25.73;Serie A
+2014;Juventus;23.59;Serie A
+2014;Torino;1.59;Serie A
+2014;Napoli;-33.25;Serie A
+2014;Lazio;1.62;Serie A
+2014;Roma;46;Serie A
+2014;Udinese;23.29;Serie A
+2014;Genoa;6.8;Serie A
+2014;Parma;21.54;Serie A
+2014;Sassuolo;-41.5;Serie A
+2014;Cagliari;5.5;Serie A
+2014;Sampdoria;5.85;Serie A
+2014;Catania;2.72;Serie A
+2014;Atalanta;-5.13;Serie A
+2014;Livorno;-3.02;Serie A
+2014;Bologna;11.41;Serie A
+2014;Chievo Verona;1.96;Serie A
+2014;Hellas Verona;1.4;Serie A
+2014;Fiorentina;-12.3;Serie A
+2014;Benfica;-10.05;Liga Portugal
+2014;Sporting;31.91;Liga Portugal
+2014;Porto;46.6;Liga Portugal
+2014;Estoril Praia;3.52;Liga Portugal
+2014;Nacional;-1.4;Liga Portugal
+2014;Maritimo;3.85;Liga Portugal
+2014;Vitoria Setubal;2;Liga Portugal
+2014;Coimbra;1.57;Liga Portugal
+2014;Braga;2.76;Liga Portugal
+2014;Vitoria Guimaraes;4.25;Liga Portugal
+2014;Rio Ave;0.93;Liga Portugal
+2014;Arouca;0;Liga Portugal
+2014;Gil Vicente;0.15;Liga Portugal
+2014;Belenenses;-1;Liga Portugal
+2014;Olhanense;0;Liga Portugal
+2014;Pacos Ferreira;2.63;Liga Portugal
+2014;Bayern Munchen;-22;Bundesliga
+2014;Borussia Dortmund;-5.23;Bundesliga
+2014;Wolfsburg;-34.55;Bundesliga
+2014;Schalke;-17.95;Bundesliga
+2014;Bayer Leverkusen;10.6;Bundesliga
+2014;Borussia Mochengladbach;-4.65;Bundesliga
+2014;Mainz;-2.65;Bundesliga
+2014;Augsburg;-3.95;Bundesliga
+2014;Hoffenheim;-5.9;Bundesliga
+2014;Hannover;-5.8;Bundesliga
+2014;Hertha;-0.95;Bundesliga
+2014;Werder Bremen;3.35;Bundesliga
+2014;Eintrach Frankfurt;-6.98;Bundesliga
+2014;Freiburg;5.27;Bundesliga
+2014;Stuttgart;0;Bundesliga
+2014;Hamburger;11.4;Bundesliga
+2014;Nurnberg;-0.57;Bundesliga
+2014;Braunschweig;-1.8;Bundesliga
+2013;Arsenal;9.85;Premier League
+2013;Chelsea;-84.25;Premier League
+2013;Manchester United;-66.8;Premier League
+2013;Liverpool;-60.15;Premier League
+2013;Manchester City;-17.65;Premier League
+2013;Tottenham;-0.47;Premier League
+2013;Everton;-2.9;Premier League
+2013;West Bromwich Albion;-1.28;Premier League
+2013;Swansea City;12.13;Premier League
+2013;West Ham;-18.85;Premier League
+2013;Norwich City;-10.7;Premier League
+2013;Fulham;21.42;Premier League
+2013;Stoke City;-23.04;Premier League
+2013;Southampton;-41.5;Premier League
+2013;Aston Villa;-24.63;Premier League
+2013;Newcastle;-17.17;Premier League
+2013;Sunderland;-23.48;Premier League
+2013;Wigan Athletic;2.72;Premier League
+2013;Reading;-9.92;Premier League
+2013;Queens Park Rangers;-45.84;Premier League
+2013;Real Madrid;-5;La Liga
+2013;Barcelona;-32.5;La Liga
+2013;Atletico Madrid;16.85;La Liga
+2013;Sevilla;-1.8;La Liga
+2013;Valencia;6.8;La Liga
+2013;Athletic Bilbao;37.5;La Liga
+2013;Real Sociedad;-13.5;La Liga
+2013;Malaga;41.6;La Liga
+2013;Real Betis;-2.65;La Liga
+2013;Rayo Vallecano;2.57;La Liga
+2013;Getafe;-0.7;La Liga
+2013;Levante;7.29;La Liga
+2013;Espanyol;2.35;La Liga
+2013;Real Valladolid;0;La Liga
+2013;Granada;-5.82;La Liga
+2013;Osasuna;5.1;La Liga
+2013;Celta de Vigo;-5.15;La Liga
+2013;Mallorca;2.3;La Liga
+2013;Deportivo La Coruna;-0.75;La Liga
+2013;Real Zaragoza;-0.126;La Liga
+2013;Inter;-13.25;Serie A
+2013;Milan;28.9;Serie A
+2013;Juventus;-49.5;Serie A
+2013;Torino;-20.6;Serie A
+2013;Napoli;3.8;Serie A
+2013;Lazio;-0.58;Serie A
+2013;Fiorentina;-7.37;Serie A
+2013;Roma;-22.6;Serie A
+2013;Udinese;29.55;Serie A
+2013;Genoa;51.32;Serie A
+2013;Sampdoria;-14.9;Serie A
+2013;Parma;-10.4;Serie A
+2013;Palermo;-1.83;Serie A
+2013;Bologna;7.66;Serie A
+2013;Catania;-5.75;Serie A
+2013;Cagliari;-8.9;Serie A
+2013;Atalanta;-0.9;Serie A
+2013;Chievo Verona;2.33;Serie A
+2013;Pescara;-4.58;Serie A
+2013;Siena;15.83;Serie A
+2013;Porto;60.77;Liga Portugal
+2013;Benfica;46.73;Liga Portugal
+2013;Pacos Ferreira;2;Liga Portugal
+2013;Braga;7.65;Liga Portugal
+2013;Estoril Praia;0;Liga Portugal
+2013;Sporting;4.59;Liga Portugal
+2013;Rio Ave;-1.9;Liga Portugal
+2013;Nacional;4.23;Liga Portugal
+2013;Vitoria Guimaraes;0.3;Liga Portugal
+2013;Maritimo;1.6;Liga Portugal
+2013;Coimbra;0;Liga Portugal
+2013;Vitoria Setubal;0;Liga Portugal
+2013;Olhanense;2.2;Liga Portugal
+2013;Gil Vicente;0;Liga Portugal
+2013;Moreirense;0;Liga Portugal
+2013;Beira Mar;1.25;Liga Portugal
+2013;Bayern Munchen;-69.8;Bundesliga
+2013;Borussia Dortmund;7.35;Bundesliga
+2013;Wolfsburg;-5.25;Bundesliga
+2013;Bayer Leverkusen;-6.22;Bundesliga
+2013;Schalke;0.35;Bundesliga
+2013;Freiburg;-1.3;Bundesliga
+2013;Eintrach Frankfurt;-5.15;Bundesliga
+2013;Hamburger;-17.4;Bundesliga
+2013;Borussia Mochengladbach;-9.35;Bundesliga
+2013;Hannover;-6.38;Bundesliga
+2013;Nurnberg;4.3;Bundesliga
+2013;Greuther Furth;-1.51;Bundesliga
+2013;Stuttgart;7.3;Bundesliga
+2013;Mainz;1.77;Bundesliga
+2013;Werder Bremen;-1.63;Bundesliga
+2013;Augsburg;-2.7;Bundesliga
+2013;Hoffenheim;-6.05;Bundesliga
+2013;Fortuna Dusseldorf;-3.05;Bundesliga
+2012;Arsenal;12.82;Premier League
+2012;Chelsea;-64.89;Premier League
+2012;Manchester United;-49.41;Premier League
+2012;Liverpool;-43.33;Premier League
+2012;Manchester City;-59.85;Premier League
+2012;Tottenham;34.25;Premier League
+2012;Everton;19.6;Premier League
+2012;Newcastle;-10.96;Premier League
+2012;Fulham;-10.46;Premier League
+2012;West Bromwich Albion;1.98;Premier League
+2012;Swansea City;-12.4;Premier League
+2012;Norwich City;-14.75;Premier League
+2012;Sunderland;-1.6;Premier League
+2012;Stoke City;-22.82;Premier League
+2012;Wigan Athletic;-1.09;Premier League
+2012;Aston Villa;23.41;Premier League
+2012;Queens Park Rangers;-23.43;Premier League
+2012;Bolton Wanderers;0.73;Premier League
+2012;Blackburn Rovers;19.75;Premier League
+2012;Wolverhampton;-9.45;Premier League
+2012;Real Madrid;-48;La Liga
+2012;Barcelona;-13.05;La Liga
+2012;Atletico Madrid;0.15;La Liga
+2012;Sevilla;-3.3;La Liga
+2012;Valencia;-1.1;La Liga
+2012;Athletic Bilbao;-7.5;La Liga
+2012;Malaga;-59.25;La Liga
+2012;Levante;6.45;La Liga
+2012;Osasuna;5.7;La Liga
+2012;Mallorca;6.15;La Liga
+2012;Getafe;15.28;La Liga
+2012;Real Sociedad;-1.5;La Liga
+2012;Real Betis;1.07;La Liga
+2012;Espanyol;18.5;La Liga
+2012;Rayo Vallecano;1.46;La Liga
+2012;Real Zaragoza;4.3;La Liga
+2012;Granada;-12.04;La Liga
+2012;Villareal;-4.45;La Liga
+2012;Sporting Gijon;3;La Liga
+2012;Racing;1.75;La Liga
+2012;Inter;14.25;Serie A
+2012;Milan;-42.85;Serie A
+2012;Juventus;-81.13;Serie A
+2012;Novara;-3.51;Serie A
+2012;Napoli;-48.91;Serie A
+2012;Lazio;3.54;Serie A
+2012;Roma;-65.12;Serie A
+2012;Udinese;49.52;Serie A
+2012;Fiorentina;-0.023;Serie A
+2012;Palermo;23.63;Serie A
+2012;Genoa;28.81;Serie A
+2012;Parma;19.1;Serie A
+2012;Cagliari;17.5;Serie A
+2012;Atalanta;-3.35;Serie A
+2012;Bologna;0.318;Serie A
+2012;Catania;8.94;Serie A
+2012;Chievo Verona;1.64;Serie A
+2012;Siena;-11.9;Serie A
+2012;Cesena;1.78;Serie A
+2012;Lecce;6.17;Serie A
+2012;Porto;-2.39;Liga Portugal
+2012;Benfica;10.23;Liga Portugal
+2012;Braga;18.95;Liga Portugal
+2012;Sporting;-27.37;Liga Portugal
+2012;Maritimo;4;Liga Portugal
+2012;Vitoria Guimaraes;-0.12;Liga Portugal
+2012;Nacional;1.85;Liga Portugal
+2012;Olhanense;-0.1;Liga Portugal
+2012;Gil Vicente;1.2;Liga Portugal
+2012;Pacos Ferreira;0.55;Liga Portugal
+2012;Vitoria Setubal;0.38;Liga Portugal
+2012;Coimbra;1.95;Liga Portugal
+2012;Beira Mar;1.65;Liga Portugal
+2012;Rio Ave;2.5;Liga Portugal
+2012;Feirense;0.125;Liga Portugal
+2012;Leiria;0.8;Liga Portugal
+2012;Bayern Munchen;-47.1;Bundesliga
+2012;Borussia Dortmund;2.42;Bundesliga
+2012;Wolfsburg;-36.68;Bundesliga
+2012;Schalke;26.78;Bundesliga
+2012;Borussia Mochengladbach;1.18;Bundesliga
+2012;Bayer Leverkusen;-10.05;Bundesliga
+2012;Stuttgart;7.3;Bundesliga
+2012;Hannover;-4.2;Bundesliga
+2012;Werder Bremen;11.45;Bundesliga
+2012;Nurnberg;1.35;Bundesliga
+2012;Hoffenheim;1.6;Bundesliga
+2012;Freiburg;11.8;Bundesliga
+2012;Mainz;7.05;Bundesliga
+2012;Augsburg;-0.915;Bundesliga
+2012;Hamburger;3.45;Bundesliga
+2012;Hertha;-0.4;Bundesliga
+2012;Koln;-3;Bundesliga
+2012;Kaiserslautern;-2.18;Bundesliga
+2011;Arsenal;-14.9;Premier League
+2011;Chelsea;-105;Premier League
+2011;Manchester United;-12.34;Premier League
+2011;Liverpool;3.78;Premier League
+2011;Manchester City;-143.46;Premier League
+2011;Tottenham;-23.67;Premier League
+2011;Everton;4.9;Premier League
+2011;Fulham;1.76;Premier League
+2011;Aston Villa;-9;Premier League
+2011;Sunderland;12.68;Premier League
+2011;West Bromwich Albion;-12.98;Premier League
+2011;Newcastle;27.77;Premier League
+2011;Stoke City;-14.33;Premier League
+2011;Bolton Wanderers;-4;Premier League
+2011;Blackburn Rovers;-4.78;Premier League
+2011;Wigan Athletic;-8;Premier League
+2011;Wolverhampton;-13.78;Premier League
+2011;Birmingham City;-25.43;Premier League
+2011;Blackpool;-5.03;Premier League
+2011;West Ham;-13.08;Premier League
+2011;Real Madrid;-82.5;La Liga
+2011;Barcelona;-19.8;La Liga
+2011;Atletico Madrid;-10.15;La Liga
+2011;Sevilla;12.5;La Liga
+2011;Valencia;56.5;La Liga
+2011;Athletic Bilbao;-2.72;La Liga
+2011;Villareal;11.57;La Liga
+2011;Espanyol;13.25;La Liga
+2011;Osasuna;7.46;La Liga
+2011;Sporting Gijon;-0.8;La Liga
+2011;Malaga;-25.05;La Liga
+2011;Racing;8.54;La Liga
+2011;Real Zaragoza;-2.35;La Liga
+2011;Levante;0;La Liga
+2011;Mallorca;6.4;La Liga
+2011;Getafe;18.2;La Liga
+2011;Real Sociedad;-4.2;La Liga
+2011;Deportivo La Coruna;15.75;La Liga
+2011;Hercules;-5.81;La Liga
+2011;Almeria;1.8;La Liga
+2011;Inter;28.39;Serie A
+2011;Milan;-25.77;Serie A
+2011;Juventus;-22.5;Serie A
+2011;Lecce;-2.96;Serie A
+2011;Napoli;-6.9;Serie A
+2011;Lazio;-2.47;Serie A
+2011;Fiorentina;-17.07;Serie A
+2011;Roma;-0.55;Serie A
+2011;Genoa;-16.45;Serie A
+2011;Udinese;16.74;Serie A
+2011;Sampdoria;1.2;Serie A
+2011;Palermo;-8.93;Serie A
+2011;Parma;-12.04;Serie A
+2011;Cagliari;2.06;Serie A
+2011;Cesena;-2.96;Serie A
+2011;Bologna;-2.96;Serie A
+2011;Catania;12.8;Serie A
+2011;Bari;5.5;Serie A
+2011;Chievo Verona;-6.75;Serie A
+2011;Brescia;-0.6;Serie A
+2011;Paris Saint Germain;-2;Ligue 1
+2011;Lyon;-17.63;Ligue 1
+2011;Marseille;-18.9;Ligue 1
+2011;Lille;2.3;Ligue 1
+2011;Sochaux;-0.8;Ligue 1
+2011;Rennes;11.93;Ligue 1
+2011;Bordeaux;11.5;Ligue 1
+2011;Toulouse;16.65;Ligue 1
+2011;Auxerre;-1.07;Ligue 1
+2011;Saint Etienne;1.33;Ligue 1
+2011;Lorient;6.8;Ligue 1
+2011;Valenciennes;6.7;Ligue 1
+2011;Nancy;8.05;Ligue 1
+2011;Montpellier;9.7;Ligue 1
+2011;Caen;-4.2;Ligue 1
+2011;Brest;-3.8;Ligue 1
+2011;Nice;21.3;Ligue 1
+2011;Monaco;4.35;Ligue 1
+2011;Lens;8.32;Ligue 1
+2011;Arlesien;0.5;Ligue 1
+2011;Bayern Munchen;-11;Bundesliga
+2011;Borussia Dortmund;-0.95;Bundesliga
+2011;Wolfsburg;3.5;Bundesliga
+2011;Bayer Leverkusen;0.85;Bundesliga
+2011;Hannover;-0.45;Bundesliga
+2011;Mainz;1.32;Bundesliga
+2011;Nurnberg;1.6;Bundesliga
+2011;Kaiserslautern;-4.5;Bundesliga
+2011;Hamburger;0.35;Bundesliga
+2011;Freiburg;-1.24;Bundesliga
+2011;Koln;-4.55;Bundesliga
+2011;Hoffenheim;22.95;Bundesliga
+2011;Stuttgart;7.4;Bundesliga
+2011;Werder Bremen;5.26;Bundesliga
+2011;Schalke;-16.05;Bundesliga
+2011;Borussia Mochengladbach;-5;Bundesliga
+2011;Eintrach Frankfurt;-1.3;Bundesliga
+2011;St. Pauli;-0.2;Bundesliga
+2010;Arsenal;35.7;Premier League
+2010;Chelsea;-26.2;Premier League
+2010;Manchester United;77.17;Premier League
+2010;Liverpool;5.05;Premier League
+2010;Manchester City;-118.1;Premier League
+2010;Tottenham;-8.6;Premier League
+2010;Everton;5.04;Premier League
+2010;Aston Villa;-24.8;Premier League
+2010;Birmingham City;-19.65;Premier League
+2010;Blackburn Rovers;23.37;Premier League
+2010;Stoke City;-19.55;Premier League
+2010;Fulham;-7.11;Premier League
+2010;Sunderland;-15.73;Premier League
+2010;Bolton Wanderers;-10;Premier League
+2010;Wolverhampton;-18.58;Premier League
+2010;Wigan Athletic;7.55;Premier League
+2010;West Ham;19.65;Premier League
+2010;Burnley;-13.45;Premier League
+2010;Hull City;-7.75;Premier League
+2010;Portsmouth;41.49;Premier League
+2010;Real Madrid;-170;La Liga
+2010;Barcelona;-89;La Liga
+2010;Atletico Madrid;0.65;La Liga
+2010;Sevilla;-18.2;La Liga
+2010;Valencia;15.63;La Liga
+2010;Athletic Bilbao;-2.35;La Liga
+2010;Villareal;-11.15;La Liga
+2010;Espanyol;2.35;La Liga
+2010;Osasuna;1.54;La Liga
+2010;Sporting Gijon;1.9;La Liga
+2010;Malaga;-0.45;La Liga
+2010;Racing;2;La Liga
+2010;Real Zaragoza;-3.99;La Liga
+2010;Tenerife;-0.6;La Liga
+2010;Real Sociedad;1.5;La Liga
+2010;Getafe;-0.85;La Liga
+2010;Mallorca;9.55;La Liga
+2010;Deportivo La Coruna;0.6;La Liga
+2010;Xerez;-0.5;La Liga
+2010;Almeria;2.3;La Liga
+2010;Inter;11.9;Serie A
+2010;Milan;58.56;Serie A
+2010;Juventus;-45;Serie A
+2010;Chievo Verona;1.6;Serie A
+2010;Napoli;-50.4;Serie A
+2010;Lazio;-18;Serie A
+2010;Roma;18.58;Serie A
+2010;Fiorentina;6.55;Serie A
+2010;Genoa;-10.04;Serie A
+2010;Udinese;17.97;Serie A
+2010;Palermo;-4.51;Serie A
+2010;Sampdoria;10.14;Serie A
+2010;Parma;3.49;Serie A
+2010;Cagliari;-11.7;Serie A
+2010;Bari;-17.34;Serie A
+2010;Catania;-20.35;Serie A
+2010;Atalanta;10.72;Serie A
+2010;Bologna;-4.27;Serie A
+2010;Livorno;5.43;Serie A
+2010;Siena;9.8;Serie A
+2010;Paris Saint Germain;-9.2;Ligue 1
+2010;Lyon;-29.7;Ligue 1
+2010;Marseille;14.5;Ligue 1
+2010;Lille;10.15;Ligue 1
+2010;Auxerre;3.2;Ligue 1
+2010;Montpellier;0;Ligue 1
+2010;Bordeaux;-17.5;Ligue 1
+2010;Lorient;2.5;Ligue 1
+2010;Monaco;-3.83;Ligue 1
+2010;Rennes;-0.798;Ligue 1
+2010;Valenciennes;-4.95;Ligue 1
+2010;Lens;-1.95;Ligue 1
+2010;Nancy;-0.1;Ligue 1
+2010;Toulouse;5.95;Ligue 1
+2010;Nice;-2.05;Ligue 1
+2010;Sochaux;2.7;Ligue 1
+2010;Saint Etienne;-5.1;Ligue 1
+2010;Le Mans;7.87;Ligue 1
+2010;Boulogne;0.115;Ligue 1
+2010;Grenoble;-3.6;Ligue 1
+2010;Bayern Munchen;-52.75;Bundesliga
+2010;Borussia Dortmund;-4.55;Bundesliga
+2010;Wolfsburg;-23.9;Bundesliga
+2010;Schalke;-3.7;Bundesliga
+2010;Werder Bremen;19.38;Bundesliga
+2010;Bayer Leverkusen;-4.95;Bundesliga
+2010;Stuttgart;12.85;Bundesliga
+2010;Hamburger;-21.95;Bundesliga
+2010;Mainz;-3.4;Bundesliga
+2010;Eintrach Frankfurt;-0.65;Bundesliga
+2010;Hoffenheim;-16.03;Bundesliga
+2010;Borussia Mochengladbach;-2.1;Bundesliga
+2010;Koln;-10.6;Bundesliga
+2010;Freiburg;-2.71;Bundesliga
+2010;Hannover;-1.25;Bundesliga
+2010;Nurnberg;1.9;Bundesliga
+2010;Bochum;-1.85;Bundesliga
+2010;Hertha;4.04;Bundesliga
+2009;Arsenal;-14.35;Premier League
+2009;Chelsea;14.05;Premier League
+2009;Manchester United;-37.8;Premier League
+2009;Liverpool;-25;Premier League
+2009;Manchester City;-130.85;Premier League
+2009;Tottenham;-55.9;Premier League
+2009;Everton;-11.78;Premier League
+2009;Aston Villa;-48.38;Premier League
+2009;West Ham;52.83;Premier League
+2009;Wigan Athletic;0.4;Premier League
+2009;Stoke City;-33.19;Premier League
+2009;Bolton Wanderers;-12.83;Premier League
+2009;Portsmouth;25.95;Premier League
+2009;Blackburn Rovers;14.82;Premier League
+2009;Sunderland;-21.96;Premier League
+2009;Hull City;-17.95;Premier League
+2009;Newcastle;5.93;Premier League
+2009;Middlesbrough;-4.08;Premier League
+2009;Fulham;-10.53;Premier League
+2009;West Bromwich Albion;-14.07;Premier League
+2009;Real Madrid;-11.2;La Liga
+2009;Barcelona;-41.41;La Liga
+2009;Atletico Madrid;-23.05;La Liga
+2009;Sevilla;22.85;La Liga
+2009;Valencia;4.7;La Liga
+2009;Athletic Bilbao;5.68;La Liga
+2009;Villareal;-1.67;La Liga
+2009;Espanyol;4.3;La Liga
+2009;Osasuna;-0.3;La Liga
+2009;Sporting Gijon;-0.1;La Liga
+2009;Malaga;-1.1;La Liga
+2009;Racing;13.7;La Liga
+2009;Huelva;9.31;La Liga
+2009;Numancia;1.7;La Liga
+2009;Real Sociedad;1.4;La Liga
+2009;Getafe;-9.5;La Liga
+2009;Mallorca;22.17;La Liga
+2009;Deportivo La Coruna;10.98;La Liga
+2009;Real Valladolid;4.25;La Liga
+2009;Almeria;-6.5;La Liga
+2009;Inter;-59.92;Serie A
+2009;Milan;-26.68;Serie A
+2009;Juventus;-8.7;Serie A
+2009;Torino;-10.8;Serie A
+2009;Napoli;-20.15;Serie A
+2009;Lazio;-11.85;Serie A
+2009;Fiorentina;-31;Serie A
+2009;Genoa;-16.51;Serie A
+2009;Udinese;15.4;Serie A
+2009;Palermo;10.45;Serie A
+2009;Cagliari;-17.86;Serie A
+2009;Atalanta;-0.85;Serie A
+2009;Sampdoria;-27.44;Serie A
+2009;Siena;-7.05;Serie A
+2009;Catania;6.8;Serie A
+2009;Chievo Verona;-2;Serie A
+2009;Bologna;-19.3;Serie A
+2009;Reggina;2.83;Serie A
+2009;Lecce;-6.65;Serie A
+2009;Roma;-14.55;Serie A
+2009;Paris Saint Germain;11.25;Ligue 1
+2009;Lyon;-16.3;Ligue 1
+2009;Marseille;-12.47;Ligue 1
+2009;Lille;1.8;Ligue 1
+2009;Bordeaux;-5.4;Ligue 1
+2009;Toulouse;12.9;Ligue 1
+2009;Rennes;-2.05;Ligue 1
+2009;Auxerre;-5;Ligue 1
+2009;Nice;15.65;Ligue 1
+2009;Lorient;-3;Ligue 1
+2009;Monaco;17.45;Ligue 1
+2009;Valenciennes;2.4;Ligue 1
+2009;Grenoble;-1.13;Ligue 1
+2009;Sochaux;-0.75;Ligue 1
+2009;Nancy;4.9;Ligue 1
+2009;Le Mans;8.3;Ligue 1
+2009;Saint Etienne;1.5;Ligue 1
+2009;Caen;0.175;Ligue 1
+2009;Nantes;-2;Ligue 1
+2009;Le Havre;2.6;Ligue 1
+2009;Bayern Munchen;10.9;Bundesliga
+2009;Borussia Dortmund;-1.45;Bundesliga
+2009;Wolfsburg;-28.57;Bundesliga
+2009;Stuttgart;3.5;Bundesliga
+2009;Hertha;-3.5;Bundesliga
+2009;Hamburger;10.75;Bundesliga
+2009;Hoffenheim;-11.83;Bundesliga
+2009;Schalke;-6.75;Bundesliga
+2009;Bayer Leverkusen;-6.25;Bundesliga
+2009;Werder Bremen;-2.4;Bundesliga
+2009;Hannover;-3.27;Bundesliga
+2009;Koln;-6.4;Bundesliga
+2009;Eintrach Frankfurt;-5.63;Bundesliga
+2009;Bochum;-4.74;Bundesliga
+2009;Borussia Mochengladbach;-10.88;Bundesliga
+2009;Energie Cottbus;-1.88;Bundesliga
+2009;Karlsruher;1;Bundesliga
+2009;Arminia Bielefeld;-1.38;Bundesliga
+2008;Arsenal;-2.08;Premier League
+2008;Chelsea;-15.35;Premier League
+2008;Manchester United;-59.9;Premier League
+2008;Liverpool;-43.95;Premier League
+2008;Manchester City;-67.39;Premier League
+2008;Tottenham;-71.6;Premier League
+2008;Everton;-22.75;Premier League
+2008;Aston Villa;-7;Premier League
+2008;Blackburn Rovers;-2.23;Premier League
+2008;Portsmouth;-35.27;Premier League
+2008;West Ham;-5.15;Premier League
+2008;Newcastle;-6.15;Premier League
+2008;Middlesbrough;-20.38;Premier League
+2008;Wigan Athletic;-0.075;Premier League
+2008;Sunderland;-61.12;Premier League
+2008;Bolton Wanderers;-0.384;Premier League
+2008;Fulham;-30.93;Premier League
+2008;Reading;-6.4;Premier League
+2008;Birmingham City;-20.83;Premier League
+2008;Derby County;-17.44;Premier League
+2008;Real Madrid;-75.6;La Liga
+2008;Barcelona;-54.5;La Liga
+2008;Atletico Madrid;-28.4;La Liga
+2008;Sevilla;-7.9;La Liga
+2008;Valencia;-64.55;La Liga
+2008;Athletic Bilbao;-12.3;La Liga
+2008;Racing;3.37;La Liga
+2008;Mallorca;4.47;La Liga
+2008;Almeria;-10.25;La Liga
+2008;Deportivo La Coruna;14.05;La Liga
+2008;Espanyol;1.75;La Liga
+2008;Real Betis;-23.08;La Liga
+2008;Getafe;-5;La Liga
+2008;Real Valladolid;-1.9;La Liga
+2008;Huelva;-7.34;La Liga
+2008;Osasuna;13.1;La Liga
+2008;Real Zaragoza;4.2;La Liga
+2008;Real Murcia;-7.53;La Liga
+2008;Levante;-4.3;La Liga
+2008;Villareal;4.45;La Liga
+2008;Inter;-27.56;Serie A
+2008;Milan;-17.89;Serie A
+2008;Juventus;-35.82;Serie A
+2008;Torino;-9.46;Serie A
+2008;Napoli;-43.45;Serie A
+2008;Lazio;-3.41;Serie A
+2008;Roma;-27.94;Serie A
+2008;Fiorentina;5.32;Serie A
+2008;Sampdoria;3.85;Serie A
+2008;Udinese;8.46;Serie A
+2008;Atalanta;7.58;Serie A
+2008;Genoa;-6.92;Serie A
+2008;Palermo;-6.22;Serie A
+2008;Siena;-9.48;Serie A
+2008;Cagliari;5.71;Serie A
+2008;Reggina;10.22;Serie A
+2008;Catania;-1.29;Serie A
+2008;Empoli;9.93;Serie A
+2008;Parma;-11.7;Serie A
+2008;Livorno;0.445;Serie A
+2008;Paris Saint Germain;-6.2;Ligue 1
+2008;Lyon;6.6;Ligue 1
+2008;Marseille;8.9;Ligue 1
+2008;Lille;33.55;Ligue 1
+2008;Bordeaux;-1.8;Ligue 1
+2008;Rennes;12.65;Ligue 1
+2008;Nice;7.6;Ligue 1
+2008;Le Mans;6.75;Ligue 1
+2008;Lorient;1.65;Ligue 1
+2008;Caen;-2.7;Ligue 1
+2008;Monaco;1.4;Ligue 1
+2008;Valenciennes;-3.4;Ligue 1
+2008;Sochaux;4.3;Ligue 1
+2008;Auxerre;22.8;Ligue 1
+2008;Toulouse;-5.8;Ligue 1
+2008;Lens;-4.65;Ligue 1
+2008;Strasbourg;0;Ligue 1
+2008;Nancy;4.65;Ligue 1
+2008;Saint Etienne;-1.45;Ligue 1
+2008;Metz;6.9;Ligue 1
+2008;Bayern Munchen;-57.05;Bundesliga
+2008;Borussia Dortmund;-5.42;Bundesliga
+2008;Wolfsburg;-16.3;Bundesliga
+2008;Schalke;-3.3;Bundesliga
+2008;Hamburger;-3.34;Bundesliga
+2008;Stuttgart;-7;Bundesliga
+2008;Bayer Leverkusen;-7.18;Bundesliga
+2008;Hannover;-8.6;Bundesliga
+2008;Eintrach Frankfurt;-2.85;Bundesliga
+2008;Hertha;1.45;Bundesliga
+2008;Karlsruher;-0.9;Bundesliga
+2008;Bochum;-0.1;Bundesliga
+2008;Energie Cottbus;2.68;Bundesliga
+2008;Arminia Bielefeld;1.68;Bundesliga
+2008;Nurnberg;-0.35;Bundesliga
+2008;Hansa Rostock;-0.7;Bundesliga
+2008;Duisburg;-2.65;Bundesliga
+2008;Werder Bremen;-3.09;Bundesliga
+2007;Arsenal;-2.08;Premier League
+2007;Chelsea;-36.38;Premier League
+2007;Manchester United;-9.2;Premier League
+2007;Liverpool;-21.28;Premier League
+2007;Manchester City;-2.3;Premier League
+2007;Tottenham;-22.35;Premier League
+2007;Everton;-15.4;Premier League
+2007;Bolton Wanderers;-13.15;Premier League
+2007;Reading;-9.23;Premier League
+2007;Portsmouth;-7.85;Premier League
+2007;Blackburn Rovers;-1.07;Premier League
+2007;Aston Villa;-22.88;Premier League
+2007;Middlesbrough;-6.63;Premier League
+2007;Newcastle;-20.7;Premier League
+2007;West Ham;-63.1;Premier League
+2007;Fulham;-3.29;Premier League
+2007;Wigan Athletic;-5.05;Premier League
+2007;Sheffield United;-14.7;Premier League
+2007;Charlton Atletic;-19.38;Premier League
+2007;Watford;3.03;Premier League
+2007;Real Madrid;-87.65;La Liga
+2007;Barcelona;-17.8;La Liga
+2007;Atletico Madrid;-51.43;La Liga
+2007;Sevilla;-17.2;La Liga
+2007;Valencia;-28.97;La Liga
+2007;Athletic Bilbao;-13.6;La Liga
+2007;Villareal;-25.74;La Liga
+2007;Real Zaragoza;0.78;La Liga
+2007;Huelva;-0.525;La Liga
+2007;Getafe;8.24;La Liga
+2007;Racing;-8.6;La Liga
+2007;Mallorca;-9.4;La Liga
+2007;Espanyol;-2.38;La Liga
+2007;Deportivo La Coruna;-4.02;La Liga
+2007;Osasuna;0;La Liga
+2007;Levante;-3.85;La Liga
+2007;Real Betis;15.26;La Liga
+2007;Celta de Vigo;-4.75;La Liga
+2007;Real Sociedad;-2.2;La Liga
+2007;Gimnastic;-2.08;La Liga
+2007;Inter;-16.51;Serie A
+2007;Milan;15.93;Serie A
+2007;Torino;-8.17;Serie A
+2007;Lazio;-15.41;Serie A
+2007;Roma;-1.6;Serie A
+2007;Palermo;-6.8;Serie A
+2007;Fiorentina;-26.43;Serie A
+2007;Empoli;9.82;Serie A
+2007;Atalanta;-0.82;Serie A
+2007;Sampdoria;-10.17;Serie A
+2007;Udinese;-1.49;Serie A
+2007;Livorno;-1.63;Serie A
+2007;Parma;17.8;Serie A
+2007;Catania;0.64;Serie A
+2007;Reggina;-0.1;Serie A
+2007;Siena;-0.45;Serie A
+2007;Cagliari;-0.7;Serie A
+2007;Chievo Verona;5.03;Serie A
+2007;Ascoli;1.63;Serie A
+2007;Messina;1.73;Serie A
+2007;Paris Saint Germain;-12.2;Ligue 1
+2007;Lyon;17.38;Ligue 1
+2007;Marseille;-1.55;Ligue 1
+2007;Lille;-2.15;Ligue 1
+2007;Toulouse;-2.1;Ligue 1
+2007;Rennes;12.81;Ligue 1
+2007;Lens;2.45;Ligue 1
+2007;Bordeaux;-11.9;Ligue 1
+2007;Sochaux;11.8;Ligue 1
+2007;Auxerre;-10;Ligue 1
+2007;Monaco;1.95;Ligue 1
+2007;Saint Etienne;2.64;Ligue 1
+2007;Le Mans;1.5;Ligue 1
+2007;Nancy;-5;Ligue 1
+2007;Lorient;0.65;Ligue 1
+2007;Nice;-7.8;Ligue 1
+2007;Valenciennes;-3.7;Ligue 1
+2007;Troyes;-2.3;Ligue 1
+2007;Sedan;-0.15;Ligue 1
+2007;Nantes;1.2;Ligue 1
+2007;Bayern Munchen;-21.5;Bundesliga
+2007;Borussia Dortmund;4.75;Bundesliga
+2007;Wolfsburg;-9.28;Bundesliga
+2007;Stuttgart;-6.05;Bundesliga
+2007;Schalke;2.92;Bundesliga
+2007;Werder Bremen;-4.65;Bundesliga
+2007;Bayer Leverkusen;8.27;Bundesliga
+2007;Nurnberg;6.18;Bundesliga
+2007;Hamburger;-7.67;Bundesliga
+2007;Bochum;-0.45;Bundesliga
+2007;Hertha;1.55;Bundesliga
+2007;Hannover;3.23;Bundesliga
+2007;Arminia Bielefeld;-0.675;Bundesliga
+2007;Energie Cottbus;-0.36;Bundesliga
+2007;Eintrach Frankfurt;-1.61;Bundesliga
+2007;Mainz;-0.41;Bundesliga
+2007;Alemannia;-0.85;Bundesliga
+2007;Borussia Mochengladbach;-9.85;Bundesliga
+2006;Arsenal;-21;Premier League
+2006;Chelsea;-56.9;Premier League
+2006;Manchester United;-23.9;Premier League
+2006;Liverpool;-25.02;Premier League
+2006;Manchester City;20.03;Premier League
+2006;Tottenham;-11.06;Premier League
+2006;Everton;-25.53;Premier League
+2006;Blackburn Rovers;-6.7;Premier League
+2006;Newcastle;-30.85;Premier League
+2006;Bolton Wanderers;-6.2;Premier League
+2006;West Ham;-21.04;Premier League
+2006;Wigan Athletic;-10.15;Premier League
+2006;Fulham;-1.93;Premier League
+2006;Charlton Atletic;-3.39;Premier League
+2006;Middlesbrough;-13.96;Premier League
+2006;Aston Villa;-10.14;Premier League
+2006;Portsmouth;-6.63;Premier League
+2006;Birmingham City;-4.15;Premier League
+2006;West Bromwich Albion;-6.23;Premier League
+2006;Sunderland;-4.5;Premier League
+2006;Real Madrid;-46.4;La Liga
+2006;Barcelona;11;La Liga
+2006;Atletico Madrid;-21.2;La Liga
+2006;Sevilla;25.2;La Liga
+2006;Valencia;-10.91;La Liga
+2006;Athletic Bilbao;9;La Liga
+2006;Osasuna;4.4;La Liga
+2006;Celta de Vigo;-4.25;La Liga
+2006;Villareal;-6.55;La Liga
+2006;Deportivo La Coruna;19.18;La Liga
+2006;Getafe;-1.2;La Liga
+2006;Real Zaragoza;7.5;La Liga
+2006;Mallorca;-4.75;La Liga
+2006;Real Betis;-6.07;La Liga
+2006;Espanyol;-9.53;La Liga
+2006;Real Sociedad;1.3;La Liga
+2006;Racing;1.15;La Liga
+2006;Alaves;-1.4;La Liga
+2006;Cadiz;-3.3;La Liga
+2006;Malaga;0.48;La Liga
+2006;Inter;-7.75;Serie A
+2006;Milan;-21.5;Serie A
+2006;Juventus;-16.36;Serie A
+2006;Lazio;-4.6;Serie A
+2006;Roma;6.08;Serie A
+2006;Chievo Verona;0.95;Serie A
+2006;Palermo;-12.35;Serie A
+2006;Livorno;0.32;Serie A
+2006;Parma;14.6;Serie A
+2006;Empoli;0;Serie A
+2006;Fiorentina;-24.31;Serie A
+2006;Ascoli;-0.2;Serie A
+2006;Udinese;19.35;Serie A
+2006;Sampdoria;-0.5;Serie A
+2006;Reggina;10.8;Serie A
+2006;Cagliari;-3;Serie A
+2006;Siena;-1.95;Serie A
+2006;Messina;0.4;Serie A
+2006;Lecce;1.5;Serie A
+2006;Treviso;2.03;Serie A
+2006;Paris Saint Germain;-5.78;Ligue 1
+2006;Lyon;-6.2;Ligue 1
+2006;Marseille;-1.48;Ligue 1
+2006;Lille;-4.4;Ligue 1
+2006;Bordeaux;7.02;Ligue 1
+2006;Lens;-0.5;Ligue 1
+2006;Auxerre;12.5;Ligue 1
+2006;Rennes;-9.1;Ligue 1
+2006;Nice;-4.5;Ligue 1
+2006;Monaco;15.4;Ligue 1
+2006;Le Mans;-3.05;Ligue 1
+2006;Nancy;-3;Ligue 1
+2006;Saint Etienne;-9.4;Ligue 1
+2006;Nantes;-5.15;Ligue 1
+2006;Sochaux;6.2;Ligue 1
+2006;Toulouse;-11.4;Ligue 1
+2006;Troyes;0.35;Ligue 1
+2006;Ajaccio;-0.5;Ligue 1
+2006;Strasbourg;2.6;Ligue 1
+2006;Metz;-0.7;Ligue 1
+2006;Bayern Munchen;-4.15;Bundesliga
+2006;Borussia Dortmund;2.53;Bundesliga
+2006;Wolfsburg;2.83;Bundesliga
+2006;Werder Bremen;-4.19;Bundesliga
+2006;Hamburger;-6.15;Bundesliga
+2006;Schalke;-6.13;Bundesliga
+2006;Bayer Leverkusen;1.57;Bundesliga
+2006;Hertha;-0.425;Bundesliga
+2006;Nurnberg;-2.19;Bundesliga
+2006;Stuttgart;17.45;Bundesliga
+2006;Borussia Mochengladbach;-2.75;Bundesliga
+2006;Mainz;0.59;Bundesliga
+2006;Hannover;-5.05;Bundesliga
+2006;Arminia Bielefeld;-0.075;Bundesliga
+2006;Eintrach Frankfurt;-4.03;Bundesliga
+2006;Kaiserslautern;0.6;Bundesliga
+2006;Koln;-5.15;Bundesliga
+2006;Duisburg;-2.2;Bundesliga
+2005;Arsenal;-8.58;Premier League
+2005;Chelsea;-159.1;Premier League
+2005;Manchester United;-51.69;Premier League
+2005;Liverpool;-33.83;Premier League
+2005;Manchester City;6.44;Premier League
+2005;Tottenham;-36.63;Premier League
+2005;Everton;33.53;Premier League
+2005;Bolton Wanderers;-1;Premier League
+2005;Middlesbrough;-3.3;Premier League
+2005;Aston Villa;-6.72;Premier League
+2005;Charlton Atletic;-11.3;Premier League
+2005;Birmingham City;-7.62;Premier League
+2005;Fulham;-8.75;Premier League
+2005;Newcastle;-7.18;Premier League
+2005;Blackburn Rovers;-0.175;Premier League
+2005;Portsmouth;-4.25;Premier League
+2005;West Bromwich Albion;-13.9;Premier League
+2005;Crystal Palace;-5.05;Premier League
+2005;Norwich City;-8.08;Premier League
+2005;Southampton;-1.18;Premier League
+2005;Real Madrid;-49.45;La Liga
+2005;Barcelona;-63.75;La Liga
+2005;Atletico Madrid;-17.6;La Liga
+2005;Sevilla;-11.53;La Liga
+2005;Valencia;-32;La Liga
+2005;Athletic Bilbao;0;La Liga
+2005;Villareal;-6.08;La Liga
+2005;Real Betis;-10.95;La Liga
+2005;Espanyol;-2.86;La Liga
+2005;Deportivo La Coruna;-2.8;La Liga
+2005;Malaga;2.95;La Liga
+2005;Real Zaragoza;-3.85;La Liga
+2005;Getafe;0;La Liga
+2005;Real Sociedad;10.05;La Liga
+2005;Osasuna;0;La Liga
+2005;Racing;-1.14;La Liga
+2005;Mallorca;23.1;La Liga
+2005;Levante;-3.4;La Liga
+2005;Numancia;-0.09;La Liga
+2005;Albacete;3;La Liga
+2005;Inter;13.87;Serie A
+2005;Milan;1.2;Serie A
+2005;Roma;18.19;Serie A
+2005;Lazio;28;Serie A
+2005;Udinese;2.1;Serie A
+2005;Sampdoria;-3.2;Serie A
+2005;Palermo;-14.03;Serie A
+2005;Messina;-0.9;Serie A
+2005;Livorno;5.9;Serie A
+2005;Reggina;3.3;Serie A
+2005;Lecce;27.46;Serie A
+2005;Cagliari;-0.7;Serie A
+2005;Siena;-0.1;Serie A
+2005;Chievo Verona;8.7;Serie A
+2005;Fiorentina;-47.5;Serie A
+2005;Bologna;-0.32;Serie A
+2005;Parma;22.62;Serie A
+2005;Brescia;19.75;Serie A
+2005;Atalanta;2.48;Serie A
+2005;Juventus;-25.67;Serie A
+2005;Paris Saint Germain;-10.5;Ligue 1
+2005;Lyon;-3.75;Ligue 1
+2005;Marseille;22.1;Ligue 1
+2005;Lille;9.74;Ligue 1
+2005;Monaco;0.5;Ligue 1
+2005;Rennes;8.8;Ligue 1
+2005;Saint Etienne;-1.2;Ligue 1
+2005;Lens;7.5;Ligue 1
+2005;Auxerre;24;Ligue 1
+2005;Sochaux;8.6;Ligue 1
+2005;Strasbourg;0.35;Ligue 1
+2005;Nice;1.45;Ligue 1
+2005;Toulouse;-2.5;Ligue 1
+2005;Ajaccio;-0.195;Ligue 1
+2005;Bordeaux;6.44;Ligue 1
+2005;Metz;4.85;Ligue 1
+2005;Nantes;13.1;Ligue 1
+2005;Caen;-1.53;Ligue 1
+2005;Bastia;0;Ligue 1
+2005;Istres;-0.08;Ligue 1
+2005;Bayern Munchen;-24.72;Bundesliga
+2005;Borussia Dortmund;10.15;Bundesliga
+2005;Wolfsburg;-8.5;Bundesliga
+2005;Werder Bremen;-2.55;Bundesliga
+2005;Hertha;-1.28;Bundesliga
+2005;Stuttgart;2.1;Bundesliga
+2005;Bayer Leverkusen;12;Bundesliga
+2005;Hamburger;-4.75;Bundesliga
+2005;Hannover;-1.23;Bundesliga
+2005;Mainz;-1.95;Bundesliga
+2005;Kaiserslautern;5.45;Bundesliga
+2005;Arminia Bielefeld;-1.22;Bundesliga
+2005;Nurnberg;-2.1;Bundesliga
+2005;Borussia Mochengladbach;-2.34;Bundesliga
+2005;Bochum;3.02;Bundesliga
+2005;Hansa Rostock;-0.05;Bundesliga
+2005;Freiburg;-1.35;Bundesliga
+2005;Schalke;-4.6;Bundesliga
+2004;Arsenal;-26.37;Premier League
+2004;Chelsea;-169.05;Premier League
+2004;Manchester United;2.78;Premier League
+2004;Liverpool;-15.65;Premier League
+2004;Manchester City;-7.64;Premier League
+2004;Tottenham;-28;Premier League
+2004;Everton;-8.94;Premier League
+2004;Aston Villa;-8.09;Premier League
+2004;Charlton Atletic;13.5;Premier League
+2004;Bolton Wanderers;-0.675;Premier League
+2004;Fulham;16.56;Premier League
+2004;Birmingham City;-15.15;Premier League
+2004;Middlesbrough;-9.08;Premier League
+2004;Southampton;1.9;Premier League
+2004;Portsmouth;-11.58;Premier League
+2004;Blackburn Rovers;12.51;Premier League
+2004;Leicester ;-1.14;Premier League
+2004;Leeds;16.73;Premier League
+2004;Newcastle;5;Premier League
+2004;Wolverhampton;-8.73;Premier League
+2004;Real Madrid;-4.7;La Liga
+2004;Barcelona;-40.95;La Liga
+2004;Atletico Madrid;-9.55;La Liga
+2004;Sevilla;11.8;La Liga
+2004;Valencia;-4;La Liga
+2004;Athletic Bilbao;0;La Liga
+2004;Deportivo La Coruna;17.25;La Liga
+2004;Villareal;-8.05;La Liga
+2004;Real Betis;-8.5;La Liga
+2004;Malaga;7.7;La Liga
+2004;Mallorca;5.3;La Liga
+2004;Real Zaragoza;-5.8;La Liga
+2004;Osasuna;-2.6;La Liga
+2004;Albacete;-0.3;La Liga
+2004;Real Sociedad;-4.5;La Liga
+2004;Espanyol;-3.2;La Liga
+2004;Racing;-0.5;La Liga
+2004;Real Valladolid;0;La Liga
+2004;Celta de Vigo;1.5;La Liga
+2004;Real Murcia;-1.2;La Liga
+2004;Inter;-2.59;Serie A
+2004;Milan;-2.15;Serie A
+2004;Juventus;-30.09;Serie A
+2004;Lazio;-9.18;Serie A
+2004;Roma;-26.2;Serie A
+2004;Parma;55.69;Serie A
+2004;Udinese;3.4;Serie A
+2004;Sampdoria;-2;Serie A
+2004;Chievo Verona;2.1;Serie A
+2004;Lecce;0;Serie A
+2004;Brescia;14;Serie A
+2004;Bologna;9.42;Serie A
+2004;Reggina;-4.75;Serie A
+2004;Siena;-2.7;Serie A
+2004;Perugia;2.5;Serie A
+2004;Modena;-3;Serie A
+2004;Empoli;4.99;Serie A
+2004;Ancona;-0.115;Serie A
+2004;Monaco;2.05;Ligue 1
+2004;Auxerre;-0.875;Ligue 1
+2004;Paris Saint Germain;0.05;Ligue 1
+2004;Lyon;-21.35;Ligue 1
+2004;Marseille;-7.35;Ligue 1
+2004;Lille;-1.1;Ligue 1
+2004;Sochaux;-0.425;Ligue 1
+2004;Lens;1.1;Ligue 1
+2004;Rennes;1.08;Ligue 1
+2004;Nice;-0.48;Ligue 1
+2004;Bordeaux;5.5;Ligue 1
+2004;Strasbourg;3.05;Ligue 1
+2004;Metz;3.2;Ligue 1
+2004;Ajaccio;0;Ligue 1
+2004;Toulouse;0;Ligue 1
+2004;Bastia;13;Ligue 1
+2004;Guingamp;8.5;Ligue 1
+2004;Le Mans;-0.4;Ligue 1
+2004;Montpellier;1.5;Ligue 1
+2004;Nantes;4.5;Ligue 1
+2004;Werder Bremen;-0.29;Bundesliga
+2004;Bayer Leverkusen;-0.25;Bundesliga
+2004;Bayern Munchen;-22.5;Bundesliga
+2004;Borussia Dortmund;-12.87;Bundesliga
+2004;Wolfsburg;-11.48;Bundesliga
+2004;Stuttgart;-7.65;Bundesliga
+2004;Bochum;1.95;Bundesliga
+2004;Schalke;0.15;Bundesliga
+2004;Hamburger;-1.8;Bundesliga
+2004;Hansa Rostock;-0.43;Bundesliga
+2004;Borussia Mochengladbach;-2.13;Bundesliga
+2004;Hertha;0.475;Bundesliga
+2004;Freiburg;-0.011;Bundesliga
+2004;Hannover;-4.73;Bundesliga
+2004;Kaiserslautern;-3.52;Bundesliga
+2004;Eintrach Frankfurt;-0.025;Bundesliga
+2004;1860 Munich;1.04;Bundesliga
+2004;Koln;-0.1;Bundesliga
