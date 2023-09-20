@@ -345,16 +345,16 @@
 
         function showTopEarners(year, data, ctx) {
 
-            const yearData = data.filter(item => item.Year === year);
+            const yearData = data.filter(item => item.Year === year && item.Profit > 0);
 
             const sortedData = yearData.sort((a, b) => b.Profit - a.Profit);
 
             const top10Data = sortedData.slice(0, 10);
 
             const labels = top10Data.map(item => item.Club);
-            const values = top10Data.map(item => Math.abs(item.Profit));
+            const values = top10Data.map(item => item.Profit);
 
-            const backgroundColors = values.map(value => (value >= 0 ? 'rgba(102, 255, 0, 0.7)' : 'rgba(255, 0, 0, 0.7)'));
+            const backgroundColors = values.map(value => ('rgba(102, 255, 0, 0.7)'));
 
             if (chart) {
                 chart.destroy();
@@ -421,14 +421,14 @@
             if (selectedLeague == "Liga Portugal") step = 100;
             if (selectedLeague == "Bundesliga") step = 150;
 
-            const filteredData = data.filter(item => item.Year === year && item.League === selectedLeague);
+            const filteredData = data.filter(item => item.Year === year && item.League === selectedLeague && item.Profit > 0);
             const sortedData = filteredData.sort((a, b) => b.Profit - a.Profit);
             const top10Data = sortedData.slice(0, 10);
 
             const labels = top10Data.map(item => item.Club);
-            const values = top10Data.map(item => Math.abs(item.Profit));
+            const values = top10Data.map(item => item.Profit);
 
-            const backgroundColors = values.map(value => (value >= 0 ? 'rgba(102, 255, 0, 0.7)' : 'rgba(255, 0, 0, 0.7)'));
+            const backgroundColors = values.map(value => ('rgba(102, 255, 0, 0.7)'));
 
             if (chart) {
                 chart.destroy();
